@@ -1,2 +1,3 @@
 passwds.public
-*.sh
+hide_secrets.sh
+show_secrets.sh
