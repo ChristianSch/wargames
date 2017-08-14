@@ -58,7 +58,3 @@
 
 .data:
 ; msg: ("Enter the 3 digit passcode to enter: Congrats you found it, now read the password for level2 from /home/level2/.pass\n/bin/sh")
-
-; level 1: 271
-; level 2: XNWFtWKWHhaaXoKI
-
