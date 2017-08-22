@@ -1,3 +1,4 @@
+#!/bin/bash
 # decrypts password files.
 # level passwords are written as clear text into `passwds.public`
 # in their respective directory.
@@ -7,6 +8,6 @@ OUT="passwds.public"
 
 for basePath in $(find . -name "passwds.secret" | sed "s/\.\/\(.*\)$IN/\1/"); do
     echo $basePath$IN "to" $basePath$OUT
-    gpg --output $basePath$OUT --yes --decrypt $basePath$IN 2&> /dev/null \
+    gpg --output $basePath$OUT --yes --decrypt $basePath$IN \
         && echo " >> made visible"
 done

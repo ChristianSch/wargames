@@ -1,3 +1,4 @@
+#!/bin/bash
 # encrypts password files.
 # `passwd.public` files are encrypted and written to `passwd.secret`,
 # the public file is then removed.
