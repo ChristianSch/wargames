@@ -1,0 +1,28 @@
+
+ssh pi@localhost
+cd ~
+ls -la
+cd .ssh/
+ls
+echo "" > known_hosts
+cd ..
+ls
+ls -la
+echo "" > .bash_history q
+cat .bash_history `
+cat .bash_history
+echo "" > .bash_history
+cat .bash_history
+cd /home/pi/
+cd .ss
+ls
+cd .ssh
+ls -la
+cat .bash_history
+echo ""> .bash_history
+nano /etc/dhcpcd.conf
+nano /etc/pihole/setupVars.conf
+nano /etc/dhcpcd.conf
+reboot
+
+

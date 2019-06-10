@@ -1,0 +1,930 @@
+['-u', 'http://10.10.10.58:3000/', '-s', '1']
+[0;33m  _____             _       _   _   _ [0m
+[0;33m |   __|___ ___ ___| |_ ___| |_| |_|_|[0m
+[0;33m |__   | . | .'| . |   | -_|  _|  _| |[0m
+[0;33m |_____|  _|__,|_  |_|_|___|_| |_| |_|[0m
+[0;33m       |_|     |___|          [1;31mv0.1.3
+[0m
+[0;38m~/#[0m Spaghetti - Web Application Security Scanner[0m
+[0;38m~/#[0m Codename - [9;33mMR.R0B0T[0m
+[0;38m~/#[0m Momo Outaadi (@M4ll0k)[0m
+[0;38m~/#[0m https://github.com/m4ll0k/Spaghetti
+[0m
+[0;32m[+][0m [0;38mURL: http://10.10.10.58:3000/[0m
+[0;32m[+][0m [0;38mStarted: 18/10/2017 12:55:14[0m
+
+[0;33m[i][0m [0;38mStarting fingerprints module...[0m
+[0;32m[+][0m [0;38mServer: None[0m
+[0;32m[+][0m [0;38mX-Frame-Options header is not present.[0m
+[0;32m[+][0m [0;38mStrict-Transport-Security header is not present.[0m
+[0;32m[+][0m [0;38mX-XSS-Protection header is not present.[0m
+
+[0;33m[i][0m [0;38mStarting bruteforce module...[0m
+[0;34m[i][0m [0;38mChecking common files...[0m
+[0;32m[+][0m [0;38mFound "robots.txt" file at http://10.10.10.58:3000/robots.txt[0m
+[0;32m[+][0m [0;38mFound "sitemap.xml" file at http://10.10.10.58:3000/sitemap.xml[0m
+[0;32m[+][0m [0;38mFound "sitemap.xml.gz" file at http://10.10.10.58:3000/sitemap.xml.gz[0m
+[0;32m[+][0m [0;38mFound "phpinfo.php" file at http://10.10.10.58:3000/phpinfo.php[0m
+[0;32m[+][0m [0;38mFound ".svn" file at http://10.10.10.58:3000/.svn[0m
+[0;32m[+][0m [0;38mFound ".git" file at http://10.10.10.58:3000/.git[0m
+[0;32m[+][0m [0;38mFound "log.txt" file at http://10.10.10.58:3000/log.txt[0m
+[0;32m[+][0m [0;38mFound "frontpg.ini" file at http://10.10.10.58:3000/frontpg.ini[0m
+[0;32m[+][0m [0;38mFound ".htaccess" file at http://10.10.10.58:3000/.htaccess[0m
+[0;32m[+][0m [0;38mFound "logs.txt" file at http://10.10.10.58:3000/logs.txt[0m
+[0;32m[+][0m [0;38mFound "php.ini.sample" file at http://10.10.10.58:3000/php.ini.sample[0m
+[0;32m[+][0m [0;38mFound "error.txt" file at http://10.10.10.58:3000/error.txt[0m
+[0;32m[+][0m [0;38mFound "errors.txt" file at http://10.10.10.58:3000/errors.txt[0m
+[0;32m[+][0m [0;38mFound "tags.txt" file at http://10.10.10.58:3000/tags.txt[0m
+[0;32m[+][0m [0;38mFound "config-dist.php" file at http://10.10.10.58:3000/config-dist.php[0m
+[0;32m[+][0m [0;38mFound "user.ini" file at http://10.10.10.58:3000/user.ini[0m
+[0;32m[+][0m [0;38mFound ".user.ini" file at http://10.10.10.58:3000/.user.ini[0m
+[0;32m[+][0m [0;38mFound ".php_cs.dist" file at http://10.10.10.58:3000/.php_cs.dist[0m
+[0;32m[+][0m [0;38mFound ".htaccess.sample" file at http://10.10.10.58:3000/.htaccess.sample[0m
+[0;32m[+][0m [0;38mFound "config/database.yml" file at http://10.10.10.58:3000/config/database.yml[0m
+[0;32m[+][0m [0;38mFound "install.php" file at http://10.10.10.58:3000/install.php[0m
+[0;32m[+][0m [0;38mFound "config.php" file at http://10.10.10.58:3000/config.php[0m
+[0;32m[+][0m [0;38mFound "php.ini" file at http://10.10.10.58:3000/php.ini[0m
+[0;32m[+][0m [0;38mFound "wp-config.php" file at http://10.10.10.58:3000/wp-config.php[0m
+[0;32m[+][0m [0;38mFound "elmah.axd" file at http://10.10.10.58:3000/elmah.axd[0m
+[0;32m[+][0m [0;38mFound "Gruntfile.js.sample" file at http://10.10.10.58:3000/Gruntfile.js.sample[0m
+[0;32m[+][0m [0;38mFound "Gruntfile.js" file at http://10.10.10.58:3000/Gruntfile.js[0m
+[0;32m[+][0m [0;38mFound "CODE_OF_CONDUCT.md" file at http://10.10.10.58:3000/CODE_OF_CONDUCT.md[0m
+[0;32m[+][0m [0;38mFound "composer.json" file at http://10.10.10.58:3000/composer.json[0m
+[0;32m[+][0m [0;38mFound "phpunit.xml.dist" file at http://10.10.10.58:3000/phpunit.xml.dist[0m
+[0;32m[+][0m [0;38mFound "BACKERS.md" file at http://10.10.10.58:3000/BACKERS.md[0m
+[0;32m[+][0m [0;38mFound "LICENSE-PHP.txt" file at http://10.10.10.58:3000/LICENSE-PHP.txt[0m
+[0;32m[+][0m [0;38mFound "LICENSE-ZEND.txt" file at http://10.10.10.58:3000/LICENSE-ZEND.txt[0m
+[0;32m[+][0m [0;38mFound "auth.json.sample" file at http://10.10.10.58:3000/auth.json.sample[0m
+[0;32m[+][0m [0;38mFound "auth.json" file at http://10.10.10.58:3000/auth.json[0m
+[0;32m[+][0m [0;38mFound "LICENSE.txt" file at http://10.10.10.58:3000/LICENSE.txt[0m
+[0;32m[+][0m [0;38mFound "README.md" file at http://10.10.10.58:3000/README.md[0m
+[0;32m[+][0m [0;38mFound "appveyor.yml" file at http://10.10.10.58:3000/appveyor.yml[0m
+[0;32m[+][0m [0;38mFound "codeception.yml" file at http://10.10.10.58:3000/codeception.yml[0m
+[0;32m[+][0m [0;38mFound "config.json" file at http://10.10.10.58:3000/config.json[0m
+[0;32m[+][0m [0;38mFound "phpcs.xml" file at http://10.10.10.58:3000/phpcs.xml[0m
+[0;32m[+][0m [0;38mFound ".codeclimate.yml" file at http://10.10.10.58:3000/.codeclimate.yml[0m
+[0;32m[+][0m [0;38mFound ".dockerignore" file at http://10.10.10.58:3000/.dockerignore[0m
+[0;32m[+][0m [0;38mFound ".editorconfig" file at http://10.10.10.58:3000/.editorconfig[0m
+[0;32m[+][0m [0;38mFound ".eslintignore" file at http://10.10.10.58:3000/.eslintignore[0m
+[0;32m[+][0m [0;38mFound ".eslintrc" file at http://10.10.10.58:3000/.eslintrc[0m
+[0;32m[+][0m [0;38mFound ".gitattributes" file at http://10.10.10.58:3000/.gitattributes[0m
+[0;32m[+][0m [0;38mFound ".gitignore" file at http://10.10.10.58:3000/.gitignore[0m
+[0;32m[+][0m [0;38mFound ".gitlab-ci.yml" file at http://10.10.10.58:3000/.gitlab-ci.yml[0m
+[0;32m[+][0m [0;38mFound ".php_cs" file at http://10.10.10.58:3000/.php_cs[0m
+[0;32m[+][0m [0;38mFound ".scrutinizer.yml" file at http://10.10.10.58:3000/.scrutinizer.yml[0m
+[0;32m[+][0m [0;38mFound ".travis.yml" file at http://10.10.10.58:3000/.travis.yml[0m
+[0;32m[+][0m [0;38mFound "Dockerfile" file at http://10.10.10.58:3000/Dockerfile[0m
+[0;32m[+][0m [0;38mFound "code-of-conduct.md" file at http://10.10.10.58:3000/code-of-conduct.md[0m
+[0;32m[+][0m [0;38mFound "composer.lock" file at http://10.10.10.58:3000/composer.lock[0m
+[0;32m[+][0m [0;38mFound "package.json" file at http://10.10.10.58:3000/package.json[0m
+[0;32m[+][0m [0;38mFound "Directory.Build.props" file at http://10.10.10.58:3000/Directory.Build.props[0m
+[0;32m[+][0m [0;38mFound "Directory.Build.targets" file at http://10.10.10.58:3000/Directory.Build.targets[0m
+[0;32m[+][0m [0;38mFound "Mvc.NoFun.sln" file at http://10.10.10.58:3000/Mvc.NoFun.sln[0m
+[0;32m[+][0m [0;38mFound "Mvc.sln" file at http://10.10.10.58:3000/Mvc.sln[0m
+[0;32m[+][0m [0;38mFound "NuGet.config" file at http://10.10.10.58:3000/NuGet.config[0m
+[0;32m[+][0m [0;38mFound "NuGetPackageVerifier.json" file at http://10.10.10.58:3000/NuGetPackageVerifier.json[0m
+[0;32m[+][0m [0;38mFound "Settings.StyleCop" file at http://10.10.10.58:3000/Settings.StyleCop[0m
+[0;32m[+][0m [0;38mFound "build.cmd" file at http://10.10.10.58:3000/build.cmd[0m
+[0;32m[+][0m [0;38mFound "build.ps1" file at http://10.10.10.58:3000/build.ps1[0m
+[0;32m[+][0m [0;38mFound "build.sh" file at http://10.10.10.58:3000/build.sh[0m
+[0;32m[+][0m [0;38mFound "WEB-INF/jboss-web.xml" file at http://10.10.10.58:3000/WEB-INF/jboss-web.xml[0m
+[0;32m[+][0m [0;38mFound "version.xml" file at http://10.10.10.58:3000/version.xml[0m
+[0;32m[+][0m [0;38mFound "CHANGELOG.md" file at http://10.10.10.58:3000/CHANGELOG.md[0m
+[0;32m[+][0m [0;38mFound "VERSION" file at http://10.10.10.58:3000/VERSION[0m
+[0;32m[+][0m [0;38mFound "appveyor.yml" file at http://10.10.10.58:3000/appveyor.yml[0m
+[0;32m[+][0m [0;38mFound "test.txt" file at http://10.10.10.58:3000/test.txt[0m
+[0;32m[+][0m [0;38mFound ".htaccess.bak" file at http://10.10.10.58:3000/.htaccess.bak[0m
+[0;32m[+][0m [0;38mFound ".htpasswd" file at http://10.10.10.58:3000/.htpasswd[0m
+[0;32m[+][0m [0;38mFound ".meta" file at http://10.10.10.58:3000/.meta[0m
+[0;32m[+][0m [0;38mFound ".web" file at http://10.10.10.58:3000/.web[0m
+[0;32m[+][0m [0;38mFound "Web.Config" file at http://10.10.10.58:3000/Web.Config[0m
+[0;32m[+][0m [0;38mFound "index.html" file at http://10.10.10.58:3000/index.html[0m
+[0;32m[+][0m [0;38mFound "index.jsp" file at http://10.10.10.58:3000/index.jsp[0m
+[0;32m[+][0m [0;38mFound "web.xml" file at http://10.10.10.58:3000/web.xml[0m
+[0;32m[+][0m [0;38mFound "index.php" file at http://10.10.10.58:3000/index.php[0m
+[0;32m[+][0m [0;38mFound "index.asp" file at http://10.10.10.58:3000/index.asp[0m
+[0;32m[+][0m [0;38mFound "Gemfile" file at http://10.10.10.58:3000/Gemfile[0m
+[0;32m[+][0m [0;38mFound ".eslintignore" file at http://10.10.10.58:3000/.eslintignore[0m
+[0;32m[+][0m [0;38mFound "behat.yml.dist" file at http://10.10.10.58:3000/behat.yml.dist[0m
+[0;32m[+][0m [0;38mFound "README" file at http://10.10.10.58:3000/README[0m
+[0;32m[+][0m [0;38mFound "README.rdoc" file at http://10.10.10.58:3000/README.rdoc[0m
+[0;32m[+][0m [0;38mFound "Rakefile" file at http://10.10.10.58:3000/Rakefile[0m
+[0;32m[+][0m [0;38mFound "index.aspx" file at http://10.10.10.58:3000/index.aspx[0m
+[0;32m[+][0m [0;38mFound "weblogic.xml" file at http://10.10.10.58:3000/weblogic.xml[0m
+[0;32m[+][0m [0;38mFound "node.xml" file at http://10.10.10.58:3000/node.xml[0m
+[0;32m[+][0m [0;38mFound "Desktop.ini" file at http://10.10.10.58:3000/Desktop.ini[0m
+[0;32m[+][0m [0;38mFound ".DS_Store" file at http://10.10.10.58:3000/.DS_Store[0m
+[0;32m[+][0m [0;38mFound "Thumbs.db" file at http://10.10.10.58:3000/Thumbs.db[0m
+[0;32m[+][0m [0;38mFound "Makefile.in" file at http://10.10.10.58:3000/Makefile.in[0m
+[0;32m[+][0m [0;38mFound "config.status" file at http://10.10.10.58:3000/config.status[0m
+[0;32m[+][0m [0;38mFound "config.ini" file at http://10.10.10.58:3000/config.ini[0m
+[0;34m[i][0m [0;38mChecking admin interfaces...[0m
+[0;34m[i][0m [0;38mChecking common backdoors...[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/r57shell.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/r57.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/c99shell.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/c99.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/nstview.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/nst.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/rst.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/r57eng.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/shell.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/r.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/lol.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/zehir.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/c-h.v2.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/php-backdoor.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/simple-backdoor.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/cmdasp.asp[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/cmd-asp-5.1.asp[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/cmdasp.aspx[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/shell.sh[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/cfexec.cfm[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/cmdjsp.jsp[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/jsp-reverse.jsp[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/perlcmd.cgi[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/perl-reverse-shell.pl[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/php-findsock-shell.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/php-reverse-shell.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/php-tiny-shell.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/qsd-php-backdoor.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/cmd.asp[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/cmd.aspx[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/file.asp[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/proxy.asp[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/shell.asp[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/shell.aspx[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/cfExec.cfm[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/cfSQL.cfm[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/cmd.cfm[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/shell.cfm[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/cmd.jsp[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/CmdServlet.class[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/ListServlet.java[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/UpServlet.java[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/CmdServlet.java[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/cmd.pl[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/list.pl[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/laudanum.php[0m
+[0;32m[+][0m [0;38mFound Backdoor at http://10.10.10.58:3000/cmd_win32.jsp[0m
+[0;34m[i][0m [0;38mChecking common backup dirs..[0m
+[0;32m[+][0m [0;38mFound directory "upload" Backup at http://10.10.10.58:3000/upload~[0m
+[0;32m[+][0m [0;38mFound directory "common" Backup at http://10.10.10.58:3000/common~[0m
+[0;32m[+][0m [0;38mFound directory "wp-content" Backup at http://10.10.10.58:3000/wp-content~[0m
+[0;32m[+][0m [0;38mFound directory "index" Backup at http://10.10.10.58:3000/index~[0m
+[0;32m[+][0m [0;38mFound directory "default" Backup at http://10.10.10.58:3000/default~[0m
+[0;32m[+][0m [0;38mFound directory "example" Backup at http://10.10.10.58:3000/example~[0m
+[0;32m[+][0m [0;38mFound directory "web" Backup at http://10.10.10.58:3000/web~[0m
+[0;32m[+][0m [0;38mFound directory "old" Backup at http://10.10.10.58:3000/old~[0m
+[0;32m[+][0m [0;38mFound directory "code" Backup at http://10.10.10.58:3000/code~[0m
+[0;32m[+][0m [0;38mFound directory "secure" Backup at http://10.10.10.58:3000/secure~[0m
+[0;32m[+][0m [0;38mFound directory "system" Backup at http://10.10.10.58:3000/system~[0m
+[0;32m[+][0m [0;38mFound directory "tests" Backup at http://10.10.10.58:3000/tests~[0m
+[0;32m[+][0m [0;38mFound directory "dev" Backup at http://10.10.10.58:3000/dev~[0m
+[0;32m[+][0m [0;38mFound directory "share" Backup at http://10.10.10.58:3000/share~[0m
+[0;32m[+][0m [0;38mFound directory "bug" Backup at http://10.10.10.58:3000/bug~[0m
+[0;32m[+][0m [0;38mFound directory "bugs" Backup at http://10.10.10.58:3000/bugs~[0m
+[0;32m[+][0m [0;38mFound directory "doc" Backup at http://10.10.10.58:3000/doc~[0m
+[0;32m[+][0m [0;38mFound directory "docs" Backup at http://10.10.10.58:3000/docs~[0m
+[0;32m[+][0m [0;38mFound directory "etc" Backup at http://10.10.10.58:3000/etc~[0m
+[0;32m[+][0m [0;38mFound directory "source" Backup at http://10.10.10.58:3000/source~[0m
+[0;32m[+][0m [0;38mFound directory "backup" Backup at http://10.10.10.58:3000/backup~[0m
+[0;32m[+][0m [0;38mFound directory "bak" Backup at http://10.10.10.58:3000/bak~[0m
+[0;32m[+][0m [0;38mFound directory "db" Backup at http://10.10.10.58:3000/db~[0m
+[0;32m[+][0m [0;38mFound directory "test" Backup at http://10.10.10.58:3000/test~[0m
+[0;32m[+][0m [0;38mFound directory "tmp" Backup at http://10.10.10.58:3000/tmp~[0m
+[0;32m[+][0m [0;38mFound directory "save" Backup at http://10.10.10.58:3000/save~[0m
+[0;32m[+][0m [0;38mFound directory "files" Backup at http://10.10.10.58:3000/files~[0m
+[0;32m[+][0m [0;38mFound directory "log" Backup at http://10.10.10.58:3000/log~[0m
+[0;32m[+][0m [0;38mFound directory "logs" Backup at http://10.10.10.58:3000/logs~[0m
+[0;32m[+][0m [0;38mFound directory "conf" Backup at http://10.10.10.58:3000/conf~[0m
+[0;32m[+][0m [0;38mFound directory "config" Backup at http://10.10.10.58:3000/config~[0m
+[0;32m[+][0m [0;38mFound directory "intranet" Backup at http://10.10.10.58:3000/intranet~[0m
+[0;32m[+][0m [0;38mFound directory "users" Backup at http://10.10.10.58:3000/users~[0m
+[0;32m[+][0m [0;38mFound directory "access" Backup at http://10.10.10.58:3000/access~[0m
+[0;32m[+][0m [0;38mFound directory "public" Backup at http://10.10.10.58:3000/public~[0m
+[0;32m[+][0m [0;38mFound directory "new" Backup at http://10.10.10.58:3000/new~[0m
+[0;32m[+][0m [0;38mFound directory "adm" Backup at http://10.10.10.58:3000/adm~[0m
+[0;32m[+][0m [0;38mFound directory "database" Backup at http://10.10.10.58:3000/database~[0m
+[0;32m[+][0m [0;38mFound directory "user" Backup at http://10.10.10.58:3000/user~[0m
+[0;32m[+][0m [0;38mFound directory "bkup" Backup at http://10.10.10.58:3000/bkup~[0m
+[0;32m[+][0m [0;38mFound directory "www" Backup at http://10.10.10.58:3000/www~[0m
+[0;32m[+][0m [0;38mFound directory "errors" Backup at http://10.10.10.58:3000/errors~[0m
+[0;32m[+][0m [0;38mFound directory "backups" Backup at http://10.10.10.58:3000/backups~[0m
+[0;32m[+][0m [0;38mFound directory "testing" Backup at http://10.10.10.58:3000/testing~[0m
+[0;32m[+][0m [0;38mFound directory "internal" Backup at http://10.10.10.58:3000/internal~[0m
+[0;32m[+][0m [0;38mFound directory "export" Backup at http://10.10.10.58:3000/export~[0m
+[0;32m[+][0m [0;38mFound directory "testweb" Backup at http://10.10.10.58:3000/testweb~[0m
+[0;32m[+][0m [0;38mFound directory "intern" Backup at http://10.10.10.58:3000/intern~[0m
+[0;32m[+][0m [0;38mFound directory "upload" Backup at http://10.10.10.58:3000/upload.tar[0m
+[0;32m[+][0m [0;38mFound directory "common" Backup at http://10.10.10.58:3000/common.tar[0m
+[0;32m[+][0m [0;38mFound directory "wp-content" Backup at http://10.10.10.58:3000/wp-content.tar[0m
+[0;32m[+][0m [0;38mFound directory "index" Backup at http://10.10.10.58:3000/index.tar[0m
+[0;32m[+][0m [0;38mFound directory "default" Backup at http://10.10.10.58:3000/default.tar[0m
+[0;32m[+][0m [0;38mFound directory "example" Backup at http://10.10.10.58:3000/example.tar[0m
+[0;32m[+][0m [0;38mFound directory "web" Backup at http://10.10.10.58:3000/web.tar[0m
+[0;32m[+][0m [0;38mFound directory "old" Backup at http://10.10.10.58:3000/old.tar[0m
+[0;32m[+][0m [0;38mFound directory "code" Backup at http://10.10.10.58:3000/code.tar[0m
+[0;32m[+][0m [0;38mFound directory "secure" Backup at http://10.10.10.58:3000/secure.tar[0m
+[0;32m[+][0m [0;38mFound directory "system" Backup at http://10.10.10.58:3000/system.tar[0m
+[0;32m[+][0m [0;38mFound directory "tests" Backup at http://10.10.10.58:3000/tests.tar[0m
+[0;32m[+][0m [0;38mFound directory "dev" Backup at http://10.10.10.58:3000/dev.tar[0m
+[0;32m[+][0m [0;38mFound directory "share" Backup at http://10.10.10.58:3000/share.tar[0m
+[0;32m[+][0m [0;38mFound directory "bug" Backup at http://10.10.10.58:3000/bug.tar[0m
+[0;32m[+][0m [0;38mFound directory "bugs" Backup at http://10.10.10.58:3000/bugs.tar[0m
+[0;32m[+][0m [0;38mFound directory "doc" Backup at http://10.10.10.58:3000/doc.tar[0m
+[0;32m[+][0m [0;38mFound directory "docs" Backup at http://10.10.10.58:3000/docs.tar[0m
+[0;32m[+][0m [0;38mFound directory "etc" Backup at http://10.10.10.58:3000/etc.tar[0m
+[0;32m[+][0m [0;38mFound directory "source" Backup at http://10.10.10.58:3000/source.tar[0m
+[0;32m[+][0m [0;38mFound directory "backup" Backup at http://10.10.10.58:3000/backup.tar[0m
+[0;32m[+][0m [0;38mFound directory "bak" Backup at http://10.10.10.58:3000/bak.tar[0m
+[0;32m[+][0m [0;38mFound directory "db" Backup at http://10.10.10.58:3000/db.tar[0m
+[0;32m[+][0m [0;38mFound directory "test" Backup at http://10.10.10.58:3000/test.tar[0m
+[0;32m[+][0m [0;38mFound directory "tmp" Backup at http://10.10.10.58:3000/tmp.tar[0m
+[0;32m[+][0m [0;38mFound directory "save" Backup at http://10.10.10.58:3000/save.tar[0m
+[0;32m[+][0m [0;38mFound directory "files" Backup at http://10.10.10.58:3000/files.tar[0m
+[0;32m[+][0m [0;38mFound directory "log" Backup at http://10.10.10.58:3000/log.tar[0m
+[0;32m[+][0m [0;38mFound directory "logs" Backup at http://10.10.10.58:3000/logs.tar[0m
+[0;32m[+][0m [0;38mFound directory "conf" Backup at http://10.10.10.58:3000/conf.tar[0m
+[0;32m[+][0m [0;38mFound directory "config" Backup at http://10.10.10.58:3000/config.tar[0m
+[0;32m[+][0m [0;38mFound directory "intranet" Backup at http://10.10.10.58:3000/intranet.tar[0m
+[0;32m[+][0m [0;38mFound directory "users" Backup at http://10.10.10.58:3000/users.tar[0m
+[0;32m[+][0m [0;38mFound directory "access" Backup at http://10.10.10.58:3000/access.tar[0m
+[0;32m[+][0m [0;38mFound directory "public" Backup at http://10.10.10.58:3000/public.tar[0m
+[0;32m[+][0m [0;38mFound directory "new" Backup at http://10.10.10.58:3000/new.tar[0m
+[0;32m[+][0m [0;38mFound directory "adm" Backup at http://10.10.10.58:3000/adm.tar[0m
+[0;32m[+][0m [0;38mFound directory "database" Backup at http://10.10.10.58:3000/database.tar[0m
+[0;32m[+][0m [0;38mFound directory "user" Backup at http://10.10.10.58:3000/user.tar[0m
+[0;32m[+][0m [0;38mFound directory "bkup" Backup at http://10.10.10.58:3000/bkup.tar[0m
+[0;32m[+][0m [0;38mFound directory "www" Backup at http://10.10.10.58:3000/www.tar[0m
+[0;32m[+][0m [0;38mFound directory "errors" Backup at http://10.10.10.58:3000/errors.tar[0m
+[0;32m[+][0m [0;38mFound directory "backups" Backup at http://10.10.10.58:3000/backups.tar[0m
+[0;32m[+][0m [0;38mFound directory "testing" Backup at http://10.10.10.58:3000/testing.tar[0m
+[0;32m[+][0m [0;38mFound directory "internal" Backup at http://10.10.10.58:3000/internal.tar[0m
+[0;32m[+][0m [0;38mFound directory "export" Backup at http://10.10.10.58:3000/export.tar[0m
+[0;32m[+][0m [0;38mFound directory "testweb" Backup at http://10.10.10.58:3000/testweb.tar[0m
+[0;32m[+][0m [0;38mFound directory "intern" Backup at http://10.10.10.58:3000/intern.tar[0m
+[0;32m[+][0m [0;38mFound directory "upload" Backup at http://10.10.10.58:3000/upload.zip[0m
+[0;32m[+][0m [0;38mFound directory "common" Backup at http://10.10.10.58:3000/common.zip[0m
+[0;32m[+][0m [0;38mFound directory "wp-content" Backup at http://10.10.10.58:3000/wp-content.zip[0m
+[0;32m[+][0m [0;38mFound directory "index" Backup at http://10.10.10.58:3000/index.zip[0m
+[0;32m[+][0m [0;38mFound directory "default" Backup at http://10.10.10.58:3000/default.zip[0m
+[0;32m[+][0m [0;38mFound directory "example" Backup at http://10.10.10.58:3000/example.zip[0m
+[0;32m[+][0m [0;38mFound directory "web" Backup at http://10.10.10.58:3000/web.zip[0m
+[0;32m[+][0m [0;38mFound directory "old" Backup at http://10.10.10.58:3000/old.zip[0m
+[0;32m[+][0m [0;38mFound directory "code" Backup at http://10.10.10.58:3000/code.zip[0m
+[0;32m[+][0m [0;38mFound directory "secure" Backup at http://10.10.10.58:3000/secure.zip[0m
+[0;32m[+][0m [0;38mFound directory "system" Backup at http://10.10.10.58:3000/system.zip[0m
+[0;32m[+][0m [0;38mFound directory "tests" Backup at http://10.10.10.58:3000/tests.zip[0m
+[0;32m[+][0m [0;38mFound directory "dev" Backup at http://10.10.10.58:3000/dev.zip[0m
+[0;32m[+][0m [0;38mFound directory "share" Backup at http://10.10.10.58:3000/share.zip[0m
+[0;32m[+][0m [0;38mFound directory "bug" Backup at http://10.10.10.58:3000/bug.zip[0m
+[0;32m[+][0m [0;38mFound directory "bugs" Backup at http://10.10.10.58:3000/bugs.zip[0m
+[0;32m[+][0m [0;38mFound directory "doc" Backup at http://10.10.10.58:3000/doc.zip[0m
+[0;32m[+][0m [0;38mFound directory "docs" Backup at http://10.10.10.58:3000/docs.zip[0m
+[0;32m[+][0m [0;38mFound directory "etc" Backup at http://10.10.10.58:3000/etc.zip[0m
+[0;32m[+][0m [0;38mFound directory "source" Backup at http://10.10.10.58:3000/source.zip[0m
+[0;32m[+][0m [0;38mFound directory "backup" Backup at http://10.10.10.58:3000/backup.zip[0m
+[0;32m[+][0m [0;38mFound directory "bak" Backup at http://10.10.10.58:3000/bak.zip[0m
+[0;32m[+][0m [0;38mFound directory "db" Backup at http://10.10.10.58:3000/db.zip[0m
+[0;32m[+][0m [0;38mFound directory "test" Backup at http://10.10.10.58:3000/test.zip[0m
+[0;32m[+][0m [0;38mFound directory "tmp" Backup at http://10.10.10.58:3000/tmp.zip[0m
+[0;32m[+][0m [0;38mFound directory "save" Backup at http://10.10.10.58:3000/save.zip[0m
+[0;32m[+][0m [0;38mFound directory "files" Backup at http://10.10.10.58:3000/files.zip[0m
+[0;32m[+][0m [0;38mFound directory "log" Backup at http://10.10.10.58:3000/log.zip[0m
+[0;32m[+][0m [0;38mFound directory "logs" Backup at http://10.10.10.58:3000/logs.zip[0m
+[0;32m[+][0m [0;38mFound directory "conf" Backup at http://10.10.10.58:3000/conf.zip[0m
+[0;32m[+][0m [0;38mFound directory "config" Backup at http://10.10.10.58:3000/config.zip[0m
+[0;32m[+][0m [0;38mFound directory "intranet" Backup at http://10.10.10.58:3000/intranet.zip[0m
+[0;32m[+][0m [0;38mFound directory "users" Backup at http://10.10.10.58:3000/users.zip[0m
+[0;32m[+][0m [0;38mFound directory "access" Backup at http://10.10.10.58:3000/access.zip[0m
+[0;32m[+][0m [0;38mFound directory "public" Backup at http://10.10.10.58:3000/public.zip[0m
+[0;32m[+][0m [0;38mFound directory "new" Backup at http://10.10.10.58:3000/new.zip[0m
+[0;32m[+][0m [0;38mFound directory "adm" Backup at http://10.10.10.58:3000/adm.zip[0m
+[0;32m[+][0m [0;38mFound directory "database" Backup at http://10.10.10.58:3000/database.zip[0m
+[0;32m[+][0m [0;38mFound directory "user" Backup at http://10.10.10.58:3000/user.zip[0m
+[0;32m[+][0m [0;38mFound directory "bkup" Backup at http://10.10.10.58:3000/bkup.zip[0m
+[0;32m[+][0m [0;38mFound directory "www" Backup at http://10.10.10.58:3000/www.zip[0m
+[0;32m[+][0m [0;38mFound directory "errors" Backup at http://10.10.10.58:3000/errors.zip[0m
+[0;32m[+][0m [0;38mFound directory "backups" Backup at http://10.10.10.58:3000/backups.zip[0m
+[0;32m[+][0m [0;38mFound directory "testing" Backup at http://10.10.10.58:3000/testing.zip[0m
+[0;32m[+][0m [0;38mFound directory "internal" Backup at http://10.10.10.58:3000/internal.zip[0m
+[0;32m[+][0m [0;38mFound directory "export" Backup at http://10.10.10.58:3000/export.zip[0m
+[0;32m[+][0m [0;38mFound directory "testweb" Backup at http://10.10.10.58:3000/testweb.zip[0m
+[0;32m[+][0m [0;38mFound directory "intern" Backup at http://10.10.10.58:3000/intern.zip[0m
+[0;32m[+][0m [0;38mFound directory "upload" Backup at http://10.10.10.58:3000/upload.rar[0m
+[0;32m[+][0m [0;38mFound directory "common" Backup at http://10.10.10.58:3000/common.rar[0m
+[0;32m[+][0m [0;38mFound directory "wp-content" Backup at http://10.10.10.58:3000/wp-content.rar[0m
+[0;32m[+][0m [0;38mFound directory "index" Backup at http://10.10.10.58:3000/index.rar[0m
+[0;32m[+][0m [0;38mFound directory "default" Backup at http://10.10.10.58:3000/default.rar[0m
+[0;32m[+][0m [0;38mFound directory "example" Backup at http://10.10.10.58:3000/example.rar[0m
+[0;32m[+][0m [0;38mFound directory "web" Backup at http://10.10.10.58:3000/web.rar[0m
+[0;32m[+][0m [0;38mFound directory "old" Backup at http://10.10.10.58:3000/old.rar[0m
+[0;32m[+][0m [0;38mFound directory "code" Backup at http://10.10.10.58:3000/code.rar[0m
+[0;32m[+][0m [0;38mFound directory "secure" Backup at http://10.10.10.58:3000/secure.rar[0m
+[0;32m[+][0m [0;38mFound directory "system" Backup at http://10.10.10.58:3000/system.rar[0m
+[0;32m[+][0m [0;38mFound directory "tests" Backup at http://10.10.10.58:3000/tests.rar[0m
+[0;32m[+][0m [0;38mFound directory "dev" Backup at http://10.10.10.58:3000/dev.rar[0m
+[0;32m[+][0m [0;38mFound directory "share" Backup at http://10.10.10.58:3000/share.rar[0m
+[0;32m[+][0m [0;38mFound directory "bug" Backup at http://10.10.10.58:3000/bug.rar[0m
+[0;32m[+][0m [0;38mFound directory "bugs" Backup at http://10.10.10.58:3000/bugs.rar[0m
+[0;32m[+][0m [0;38mFound directory "doc" Backup at http://10.10.10.58:3000/doc.rar[0m
+[0;32m[+][0m [0;38mFound directory "docs" Backup at http://10.10.10.58:3000/docs.rar[0m
+[0;32m[+][0m [0;38mFound directory "etc" Backup at http://10.10.10.58:3000/etc.rar[0m
+[0;32m[+][0m [0;38mFound directory "source" Backup at http://10.10.10.58:3000/source.rar[0m
+[0;32m[+][0m [0;38mFound directory "backup" Backup at http://10.10.10.58:3000/backup.rar[0m
+[0;32m[+][0m [0;38mFound directory "bak" Backup at http://10.10.10.58:3000/bak.rar[0m
+[0;32m[+][0m [0;38mFound directory "db" Backup at http://10.10.10.58:3000/db.rar[0m
+[0;32m[+][0m [0;38mFound directory "test" Backup at http://10.10.10.58:3000/test.rar[0m
+[0;32m[+][0m [0;38mFound directory "tmp" Backup at http://10.10.10.58:3000/tmp.rar[0m
+[0;32m[+][0m [0;38mFound directory "save" Backup at http://10.10.10.58:3000/save.rar[0m
+[0;32m[+][0m [0;38mFound directory "files" Backup at http://10.10.10.58:3000/files.rar[0m
+[0;32m[+][0m [0;38mFound directory "log" Backup at http://10.10.10.58:3000/log.rar[0m
+[0;32m[+][0m [0;38mFound directory "logs" Backup at http://10.10.10.58:3000/logs.rar[0m
+[0;32m[+][0m [0;38mFound directory "conf" Backup at http://10.10.10.58:3000/conf.rar[0m
+[0;32m[+][0m [0;38mFound directory "config" Backup at http://10.10.10.58:3000/config.rar[0m
+[0;32m[+][0m [0;38mFound directory "intranet" Backup at http://10.10.10.58:3000/intranet.rar[0m
+[0;32m[+][0m [0;38mFound directory "users" Backup at http://10.10.10.58:3000/users.rar[0m
+[0;32m[+][0m [0;38mFound directory "access" Backup at http://10.10.10.58:3000/access.rar[0m
+[0;32m[+][0m [0;38mFound directory "public" Backup at http://10.10.10.58:3000/public.rar[0m
+[0;32m[+][0m [0;38mFound directory "new" Backup at http://10.10.10.58:3000/new.rar[0m
+[0;32m[+][0m [0;38mFound directory "adm" Backup at http://10.10.10.58:3000/adm.rar[0m
+[0;32m[+][0m [0;38mFound directory "database" Backup at http://10.10.10.58:3000/database.rar[0m
+[0;32m[+][0m [0;38mFound directory "user" Backup at http://10.10.10.58:3000/user.rar[0m
+[0;32m[+][0m [0;38mFound directory "bkup" Backup at http://10.10.10.58:3000/bkup.rar[0m
+[0;32m[+][0m [0;38mFound directory "www" Backup at http://10.10.10.58:3000/www.rar[0m
+[0;32m[+][0m [0;38mFound directory "errors" Backup at http://10.10.10.58:3000/errors.rar[0m
+[0;32m[+][0m [0;38mFound directory "backups" Backup at http://10.10.10.58:3000/backups.rar[0m
+[0;32m[+][0m [0;38mFound directory "testing" Backup at http://10.10.10.58:3000/testing.rar[0m
+[0;32m[+][0m [0;38mFound directory "internal" Backup at http://10.10.10.58:3000/internal.rar[0m
+[0;32m[+][0m [0;38mFound directory "export" Backup at http://10.10.10.58:3000/export.rar[0m
+[0;32m[+][0m [0;38mFound directory "testweb" Backup at http://10.10.10.58:3000/testweb.rar[0m
+[0;32m[+][0m [0;38mFound directory "intern" Backup at http://10.10.10.58:3000/intern.rar[0m
+[0;32m[+][0m [0;38mFound directory "upload" Backup at http://10.10.10.58:3000/upload.old[0m
+[0;32m[+][0m [0;38mFound directory "common" Backup at http://10.10.10.58:3000/common.old[0m
+[0;32m[+][0m [0;38mFound directory "wp-content" Backup at http://10.10.10.58:3000/wp-content.old[0m
+[0;32m[+][0m [0;38mFound directory "index" Backup at http://10.10.10.58:3000/index.old[0m
+[0;32m[+][0m [0;38mFound directory "default" Backup at http://10.10.10.58:3000/default.old[0m
+[0;32m[+][0m [0;38mFound directory "example" Backup at http://10.10.10.58:3000/example.old[0m
+[0;32m[+][0m [0;38mFound directory "web" Backup at http://10.10.10.58:3000/web.old[0m
+[0;32m[+][0m [0;38mFound directory "old" Backup at http://10.10.10.58:3000/old.old[0m
+[0;32m[+][0m [0;38mFound directory "code" Backup at http://10.10.10.58:3000/code.old[0m
+[0;32m[+][0m [0;38mFound directory "secure" Backup at http://10.10.10.58:3000/secure.old[0m
+[0;32m[+][0m [0;38mFound directory "system" Backup at http://10.10.10.58:3000/system.old[0m
+[0;32m[+][0m [0;38mFound directory "tests" Backup at http://10.10.10.58:3000/tests.old[0m
+[0;32m[+][0m [0;38mFound directory "dev" Backup at http://10.10.10.58:3000/dev.old[0m
+[0;32m[+][0m [0;38mFound directory "share" Backup at http://10.10.10.58:3000/share.old[0m
+[0;32m[+][0m [0;38mFound directory "bug" Backup at http://10.10.10.58:3000/bug.old[0m
+[0;32m[+][0m [0;38mFound directory "bugs" Backup at http://10.10.10.58:3000/bugs.old[0m
+[0;32m[+][0m [0;38mFound directory "doc" Backup at http://10.10.10.58:3000/doc.old[0m
+[0;32m[+][0m [0;38mFound directory "docs" Backup at http://10.10.10.58:3000/docs.old[0m
+[0;32m[+][0m [0;38mFound directory "etc" Backup at http://10.10.10.58:3000/etc.old[0m
+[0;32m[+][0m [0;38mFound directory "source" Backup at http://10.10.10.58:3000/source.old[0m
+[0;32m[+][0m [0;38mFound directory "backup" Backup at http://10.10.10.58:3000/backup.old[0m
+[0;32m[+][0m [0;38mFound directory "bak" Backup at http://10.10.10.58:3000/bak.old[0m
+[0;32m[+][0m [0;38mFound directory "db" Backup at http://10.10.10.58:3000/db.old[0m
+[0;32m[+][0m [0;38mFound directory "test" Backup at http://10.10.10.58:3000/test.old[0m
+[0;32m[+][0m [0;38mFound directory "tmp" Backup at http://10.10.10.58:3000/tmp.old[0m
+[0;32m[+][0m [0;38mFound directory "save" Backup at http://10.10.10.58:3000/save.old[0m
+[0;32m[+][0m [0;38mFound directory "files" Backup at http://10.10.10.58:3000/files.old[0m
+[0;32m[+][0m [0;38mFound directory "log" Backup at http://10.10.10.58:3000/log.old[0m
+[0;32m[+][0m [0;38mFound directory "logs" Backup at http://10.10.10.58:3000/logs.old[0m
+[0;32m[+][0m [0;38mFound directory "conf" Backup at http://10.10.10.58:3000/conf.old[0m
+[0;32m[+][0m [0;38mFound directory "config" Backup at http://10.10.10.58:3000/config.old[0m
+[0;32m[+][0m [0;38mFound directory "intranet" Backup at http://10.10.10.58:3000/intranet.old[0m
+[0;32m[+][0m [0;38mFound directory "users" Backup at http://10.10.10.58:3000/users.old[0m
+[0;32m[+][0m [0;38mFound directory "access" Backup at http://10.10.10.58:3000/access.old[0m
+[0;32m[+][0m [0;38mFound directory "public" Backup at http://10.10.10.58:3000/public.old[0m
+[0;32m[+][0m [0;38mFound directory "new" Backup at http://10.10.10.58:3000/new.old[0m
+[0;32m[+][0m [0;38mFound directory "adm" Backup at http://10.10.10.58:3000/adm.old[0m
+[0;32m[+][0m [0;38mFound directory "database" Backup at http://10.10.10.58:3000/database.old[0m
+[0;32m[+][0m [0;38mFound directory "user" Backup at http://10.10.10.58:3000/user.old[0m
+[0;32m[+][0m [0;38mFound directory "bkup" Backup at http://10.10.10.58:3000/bkup.old[0m
+[0;32m[+][0m [0;38mFound directory "www" Backup at http://10.10.10.58:3000/www.old[0m
+[0;32m[+][0m [0;38mFound directory "errors" Backup at http://10.10.10.58:3000/errors.old[0m
+[0;32m[+][0m [0;38mFound directory "backups" Backup at http://10.10.10.58:3000/backups.old[0m
+[0;32m[+][0m [0;38mFound directory "testing" Backup at http://10.10.10.58:3000/testing.old[0m
+[0;32m[+][0m [0;38mFound directory "internal" Backup at http://10.10.10.58:3000/internal.old[0m
+[0;32m[+][0m [0;38mFound directory "export" Backup at http://10.10.10.58:3000/export.old[0m
+[0;32m[+][0m [0;38mFound directory "testweb" Backup at http://10.10.10.58:3000/testweb.old[0m
+[0;32m[+][0m [0;38mFound directory "intern" Backup at http://10.10.10.58:3000/intern.old[0m
+[0;32m[+][0m [0;38mFound directory "upload" Backup at http://10.10.10.58:3000/upload.bak[0m
+[0;32m[+][0m [0;38mFound directory "common" Backup at http://10.10.10.58:3000/common.bak[0m
+[0;32m[+][0m [0;38mFound directory "wp-content" Backup at http://10.10.10.58:3000/wp-content.bak[0m
+[0;32m[+][0m [0;38mFound directory "index" Backup at http://10.10.10.58:3000/index.bak[0m
+[0;32m[+][0m [0;38mFound directory "default" Backup at http://10.10.10.58:3000/default.bak[0m
+[0;32m[+][0m [0;38mFound directory "example" Backup at http://10.10.10.58:3000/example.bak[0m
+[0;32m[+][0m [0;38mFound directory "web" Backup at http://10.10.10.58:3000/web.bak[0m
+[0;32m[+][0m [0;38mFound directory "old" Backup at http://10.10.10.58:3000/old.bak[0m
+[0;32m[+][0m [0;38mFound directory "code" Backup at http://10.10.10.58:3000/code.bak[0m
+[0;32m[+][0m [0;38mFound directory "secure" Backup at http://10.10.10.58:3000/secure.bak[0m
+[0;32m[+][0m [0;38mFound directory "system" Backup at http://10.10.10.58:3000/system.bak[0m
+[0;32m[+][0m [0;38mFound directory "tests" Backup at http://10.10.10.58:3000/tests.bak[0m
+[0;32m[+][0m [0;38mFound directory "dev" Backup at http://10.10.10.58:3000/dev.bak[0m
+[0;32m[+][0m [0;38mFound directory "share" Backup at http://10.10.10.58:3000/share.bak[0m
+[0;32m[+][0m [0;38mFound directory "bug" Backup at http://10.10.10.58:3000/bug.bak[0m
+[0;32m[+][0m [0;38mFound directory "bugs" Backup at http://10.10.10.58:3000/bugs.bak[0m
+[0;32m[+][0m [0;38mFound directory "doc" Backup at http://10.10.10.58:3000/doc.bak[0m
+[0;32m[+][0m [0;38mFound directory "docs" Backup at http://10.10.10.58:3000/docs.bak[0m
+[0;32m[+][0m [0;38mFound directory "etc" Backup at http://10.10.10.58:3000/etc.bak[0m
+[0;32m[+][0m [0;38mFound directory "source" Backup at http://10.10.10.58:3000/source.bak[0m
+[0;32m[+][0m [0;38mFound directory "backup" Backup at http://10.10.10.58:3000/backup.bak[0m
+[0;32m[+][0m [0;38mFound directory "bak" Backup at http://10.10.10.58:3000/bak.bak[0m
+[0;32m[+][0m [0;38mFound directory "db" Backup at http://10.10.10.58:3000/db.bak[0m
+[0;32m[+][0m [0;38mFound directory "test" Backup at http://10.10.10.58:3000/test.bak[0m
+[0;32m[+][0m [0;38mFound directory "tmp" Backup at http://10.10.10.58:3000/tmp.bak[0m
+[0;32m[+][0m [0;38mFound directory "save" Backup at http://10.10.10.58:3000/save.bak[0m
+[0;32m[+][0m [0;38mFound directory "files" Backup at http://10.10.10.58:3000/files.bak[0m
+[0;32m[+][0m [0;38mFound directory "log" Backup at http://10.10.10.58:3000/log.bak[0m
+[0;32m[+][0m [0;38mFound directory "logs" Backup at http://10.10.10.58:3000/logs.bak[0m
+[0;32m[+][0m [0;38mFound directory "conf" Backup at http://10.10.10.58:3000/conf.bak[0m
+[0;32m[+][0m [0;38mFound directory "config" Backup at http://10.10.10.58:3000/config.bak[0m
+[0;32m[+][0m [0;38mFound directory "intranet" Backup at http://10.10.10.58:3000/intranet.bak[0m
+[0;32m[+][0m [0;38mFound directory "users" Backup at http://10.10.10.58:3000/users.bak[0m
+[0;32m[+][0m [0;38mFound directory "access" Backup at http://10.10.10.58:3000/access.bak[0m
+[0;32m[+][0m [0;38mFound directory "public" Backup at http://10.10.10.58:3000/public.bak[0m
+[0;32m[+][0m [0;38mFound directory "new" Backup at http://10.10.10.58:3000/new.bak[0m
+[0;32m[+][0m [0;38mFound directory "adm" Backup at http://10.10.10.58:3000/adm.bak[0m
+[0;32m[+][0m [0;38mFound directory "database" Backup at http://10.10.10.58:3000/database.bak[0m
+[0;32m[+][0m [0;38mFound directory "user" Backup at http://10.10.10.58:3000/user.bak[0m
+[0;32m[+][0m [0;38mFound directory "bkup" Backup at http://10.10.10.58:3000/bkup.bak[0m
+[0;32m[+][0m [0;38mFound directory "www" Backup at http://10.10.10.58:3000/www.bak[0m
+[0;32m[+][0m [0;38mFound directory "errors" Backup at http://10.10.10.58:3000/errors.bak[0m
+[0;32m[+][0m [0;38mFound directory "backups" Backup at http://10.10.10.58:3000/backups.bak[0m
+[0;32m[+][0m [0;38mFound directory "testing" Backup at http://10.10.10.58:3000/testing.bak[0m
+[0;32m[+][0m [0;38mFound directory "internal" Backup at http://10.10.10.58:3000/internal.bak[0m
+[0;32m[+][0m [0;38mFound directory "export" Backup at http://10.10.10.58:3000/export.bak[0m
+[0;32m[+][0m [0;38mFound directory "testweb" Backup at http://10.10.10.58:3000/testweb.bak[0m
+[0;32m[+][0m [0;38mFound directory "intern" Backup at http://10.10.10.58:3000/intern.bak[0m
+[0;32m[+][0m [0;38mFound directory "upload" Backup at http://10.10.10.58:3000/upload.bac[0m
+[0;32m[+][0m [0;38mFound directory "common" Backup at http://10.10.10.58:3000/common.bac[0m
+[0;32m[+][0m [0;38mFound directory "wp-content" Backup at http://10.10.10.58:3000/wp-content.bac[0m
+[0;32m[+][0m [0;38mFound directory "index" Backup at http://10.10.10.58:3000/index.bac[0m
+[0;32m[+][0m [0;38mFound directory "default" Backup at http://10.10.10.58:3000/default.bac[0m
+[0;32m[+][0m [0;38mFound directory "example" Backup at http://10.10.10.58:3000/example.bac[0m
+[0;32m[+][0m [0;38mFound directory "web" Backup at http://10.10.10.58:3000/web.bac[0m
+[0;32m[+][0m [0;38mFound directory "old" Backup at http://10.10.10.58:3000/old.bac[0m
+[0;32m[+][0m [0;38mFound directory "code" Backup at http://10.10.10.58:3000/code.bac[0m
+[0;32m[+][0m [0;38mFound directory "secure" Backup at http://10.10.10.58:3000/secure.bac[0m
+[0;32m[+][0m [0;38mFound directory "system" Backup at http://10.10.10.58:3000/system.bac[0m
+[0;32m[+][0m [0;38mFound directory "tests" Backup at http://10.10.10.58:3000/tests.bac[0m
+[0;32m[+][0m [0;38mFound directory "dev" Backup at http://10.10.10.58:3000/dev.bac[0m
+[0;32m[+][0m [0;38mFound directory "share" Backup at http://10.10.10.58:3000/share.bac[0m
+[0;32m[+][0m [0;38mFound directory "bug" Backup at http://10.10.10.58:3000/bug.bac[0m
+[0;32m[+][0m [0;38mFound directory "bugs" Backup at http://10.10.10.58:3000/bugs.bac[0m
+[0;32m[+][0m [0;38mFound directory "doc" Backup at http://10.10.10.58:3000/doc.bac[0m
+[0;32m[+][0m [0;38mFound directory "docs" Backup at http://10.10.10.58:3000/docs.bac[0m
+[0;32m[+][0m [0;38mFound directory "etc" Backup at http://10.10.10.58:3000/etc.bac[0m
+[0;32m[+][0m [0;38mFound directory "source" Backup at http://10.10.10.58:3000/source.bac[0m
+[0;32m[+][0m [0;38mFound directory "backup" Backup at http://10.10.10.58:3000/backup.bac[0m
+[0;32m[+][0m [0;38mFound directory "bak" Backup at http://10.10.10.58:3000/bak.bac[0m
+[0;32m[+][0m [0;38mFound directory "db" Backup at http://10.10.10.58:3000/db.bac[0m
+[0;32m[+][0m [0;38mFound directory "test" Backup at http://10.10.10.58:3000/test.bac[0m
+[0;32m[+][0m [0;38mFound directory "tmp" Backup at http://10.10.10.58:3000/tmp.bac[0m
+[0;32m[+][0m [0;38mFound directory "save" Backup at http://10.10.10.58:3000/save.bac[0m
+[0;32m[+][0m [0;38mFound directory "files" Backup at http://10.10.10.58:3000/files.bac[0m
+[0;32m[+][0m [0;38mFound directory "log" Backup at http://10.10.10.58:3000/log.bac[0m
+[0;32m[+][0m [0;38mFound directory "logs" Backup at http://10.10.10.58:3000/logs.bac[0m
+[0;32m[+][0m [0;38mFound directory "conf" Backup at http://10.10.10.58:3000/conf.bac[0m
+[0;32m[+][0m [0;38mFound directory "config" Backup at http://10.10.10.58:3000/config.bac[0m
+[0;32m[+][0m [0;38mFound directory "intranet" Backup at http://10.10.10.58:3000/intranet.bac[0m
+[0;32m[+][0m [0;38mFound directory "users" Backup at http://10.10.10.58:3000/users.bac[0m
+[0;32m[+][0m [0;38mFound directory "access" Backup at http://10.10.10.58:3000/access.bac[0m
+[0;32m[+][0m [0;38mFound directory "public" Backup at http://10.10.10.58:3000/public.bac[0m
+[0;32m[+][0m [0;38mFound directory "new" Backup at http://10.10.10.58:3000/new.bac[0m
+[0;32m[+][0m [0;38mFound directory "adm" Backup at http://10.10.10.58:3000/adm.bac[0m
+[0;32m[+][0m [0;38mFound directory "database" Backup at http://10.10.10.58:3000/database.bac[0m
+[0;32m[+][0m [0;38mFound directory "user" Backup at http://10.10.10.58:3000/user.bac[0m
+[0;32m[+][0m [0;38mFound directory "bkup" Backup at http://10.10.10.58:3000/bkup.bac[0m
+[0;32m[+][0m [0;38mFound directory "www" Backup at http://10.10.10.58:3000/www.bac[0m
+[0;32m[+][0m [0;38mFound directory "errors" Backup at http://10.10.10.58:3000/errors.bac[0m
+[0;32m[+][0m [0;38mFound directory "backups" Backup at http://10.10.10.58:3000/backups.bac[0m
+[0;32m[+][0m [0;38mFound directory "testing" Backup at http://10.10.10.58:3000/testing.bac[0m
+[0;32m[+][0m [0;38mFound directory "internal" Backup at http://10.10.10.58:3000/internal.bac[0m
+[0;32m[+][0m [0;38mFound directory "export" Backup at http://10.10.10.58:3000/export.bac[0m
+[0;32m[+][0m [0;38mFound directory "testweb" Backup at http://10.10.10.58:3000/testweb.bac[0m
+[0;32m[+][0m [0;38mFound directory "intern" Backup at http://10.10.10.58:3000/intern.bac[0m
+[0;32m[+][0m [0;38mFound directory "upload" Backup at http://10.10.10.58:3000/upload.backup[0m
+[0;32m[+][0m [0;38mFound directory "common" Backup at http://10.10.10.58:3000/common.backup[0m
+[0;32m[+][0m [0;38mFound directory "wp-content" Backup at http://10.10.10.58:3000/wp-content.backup[0m
+[0;32m[+][0m [0;38mFound directory "index" Backup at http://10.10.10.58:3000/index.backup[0m
+[0;32m[+][0m [0;38mFound directory "default" Backup at http://10.10.10.58:3000/default.backup[0m
+[0;32m[+][0m [0;38mFound directory "example" Backup at http://10.10.10.58:3000/example.backup[0m
+[0;32m[+][0m [0;38mFound directory "web" Backup at http://10.10.10.58:3000/web.backup[0m
+[0;32m[+][0m [0;38mFound directory "old" Backup at http://10.10.10.58:3000/old.backup[0m
+[0;32m[+][0m [0;38mFound directory "code" Backup at http://10.10.10.58:3000/code.backup[0m
+[0;32m[+][0m [0;38mFound directory "secure" Backup at http://10.10.10.58:3000/secure.backup[0m
+[0;32m[+][0m [0;38mFound directory "system" Backup at http://10.10.10.58:3000/system.backup[0m
+[0;32m[+][0m [0;38mFound directory "tests" Backup at http://10.10.10.58:3000/tests.backup[0m
+[0;32m[+][0m [0;38mFound directory "dev" Backup at http://10.10.10.58:3000/dev.backup[0m
+[0;32m[+][0m [0;38mFound directory "share" Backup at http://10.10.10.58:3000/share.backup[0m
+[0;32m[+][0m [0;38mFound directory "bug" Backup at http://10.10.10.58:3000/bug.backup[0m
+[0;32m[+][0m [0;38mFound directory "bugs" Backup at http://10.10.10.58:3000/bugs.backup[0m
+[0;32m[+][0m [0;38mFound directory "doc" Backup at http://10.10.10.58:3000/doc.backup[0m
+[0;32m[+][0m [0;38mFound directory "docs" Backup at http://10.10.10.58:3000/docs.backup[0m
+[0;32m[+][0m [0;38mFound directory "etc" Backup at http://10.10.10.58:3000/etc.backup[0m
+[0;32m[+][0m [0;38mFound directory "source" Backup at http://10.10.10.58:3000/source.backup[0m
+[0;32m[+][0m [0;38mFound directory "backup" Backup at http://10.10.10.58:3000/backup.backup[0m
+[0;32m[+][0m [0;38mFound directory "bak" Backup at http://10.10.10.58:3000/bak.backup[0m
+[0;32m[+][0m [0;38mFound directory "db" Backup at http://10.10.10.58:3000/db.backup[0m
+[0;32m[+][0m [0;38mFound directory "test" Backup at http://10.10.10.58:3000/test.backup[0m
+[0;32m[+][0m [0;38mFound directory "tmp" Backup at http://10.10.10.58:3000/tmp.backup[0m
+[0;32m[+][0m [0;38mFound directory "save" Backup at http://10.10.10.58:3000/save.backup[0m
+[0;32m[+][0m [0;38mFound directory "files" Backup at http://10.10.10.58:3000/files.backup[0m
+[0;32m[+][0m [0;38mFound directory "log" Backup at http://10.10.10.58:3000/log.backup[0m
+[0;32m[+][0m [0;38mFound directory "logs" Backup at http://10.10.10.58:3000/logs.backup[0m
+[0;32m[+][0m [0;38mFound directory "conf" Backup at http://10.10.10.58:3000/conf.backup[0m
+[0;32m[+][0m [0;38mFound directory "config" Backup at http://10.10.10.58:3000/config.backup[0m
+[0;32m[+][0m [0;38mFound directory "intranet" Backup at http://10.10.10.58:3000/intranet.backup[0m
+[0;32m[+][0m [0;38mFound directory "users" Backup at http://10.10.10.58:3000/users.backup[0m
+[0;32m[+][0m [0;38mFound directory "access" Backup at http://10.10.10.58:3000/access.backup[0m
+[0;32m[+][0m [0;38mFound directory "public" Backup at http://10.10.10.58:3000/public.backup[0m
+[0;32m[+][0m [0;38mFound directory "new" Backup at http://10.10.10.58:3000/new.backup[0m
+[0;32m[+][0m [0;38mFound directory "adm" Backup at http://10.10.10.58:3000/adm.backup[0m
+[0;32m[+][0m [0;38mFound directory "database" Backup at http://10.10.10.58:3000/database.backup[0m
+[0;32m[+][0m [0;38mFound directory "user" Backup at http://10.10.10.58:3000/user.backup[0m
+[0;32m[+][0m [0;38mFound directory "bkup" Backup at http://10.10.10.58:3000/bkup.backup[0m
+[0;32m[+][0m [0;38mFound directory "www" Backup at http://10.10.10.58:3000/www.backup[0m
+[0;32m[+][0m [0;38mFound directory "errors" Backup at http://10.10.10.58:3000/errors.backup[0m
+[0;32m[+][0m [0;38mFound directory "backups" Backup at http://10.10.10.58:3000/backups.backup[0m
+[0;32m[+][0m [0;38mFound directory "testing" Backup at http://10.10.10.58:3000/testing.backup[0m
+[0;32m[+][0m [0;38mFound directory "internal" Backup at http://10.10.10.58:3000/internal.backup[0m
+[0;32m[+][0m [0;38mFound directory "export" Backup at http://10.10.10.58:3000/export.backup[0m
+[0;32m[+][0m [0;38mFound directory "testweb" Backup at http://10.10.10.58:3000/testweb.backup[0m
+[0;32m[+][0m [0;38mFound directory "intern" Backup at http://10.10.10.58:3000/intern.backup[0m
+[0;32m[+][0m [0;38mFound directory "upload" Backup at http://10.10.10.58:3000/upload_old[0m
+[0;32m[+][0m [0;38mFound directory "common" Backup at http://10.10.10.58:3000/common_old[0m
+[0;32m[+][0m [0;38mFound directory "wp-content" Backup at http://10.10.10.58:3000/wp-content_old[0m
+[0;32m[+][0m [0;38mFound directory "index" Backup at http://10.10.10.58:3000/index_old[0m
+[0;32m[+][0m [0;38mFound directory "default" Backup at http://10.10.10.58:3000/default_old[0m
+[0;32m[+][0m [0;38mFound directory "example" Backup at http://10.10.10.58:3000/example_old[0m
+[0;32m[+][0m [0;38mFound directory "web" Backup at http://10.10.10.58:3000/web_old[0m
+[0;32m[+][0m [0;38mFound directory "old" Backup at http://10.10.10.58:3000/old_old[0m
+[0;32m[+][0m [0;38mFound directory "code" Backup at http://10.10.10.58:3000/code_old[0m
+[0;32m[+][0m [0;38mFound directory "secure" Backup at http://10.10.10.58:3000/secure_old[0m
+[0;32m[+][0m [0;38mFound directory "system" Backup at http://10.10.10.58:3000/system_old[0m
+[0;32m[+][0m [0;38mFound directory "tests" Backup at http://10.10.10.58:3000/tests_old[0m
+[0;32m[+][0m [0;38mFound directory "dev" Backup at http://10.10.10.58:3000/dev_old[0m
+[0;32m[+][0m [0;38mFound directory "share" Backup at http://10.10.10.58:3000/share_old[0m
+[0;32m[+][0m [0;38mFound directory "bug" Backup at http://10.10.10.58:3000/bug_old[0m
+[0;32m[+][0m [0;38mFound directory "bugs" Backup at http://10.10.10.58:3000/bugs_old[0m
+[0;32m[+][0m [0;38mFound directory "doc" Backup at http://10.10.10.58:3000/doc_old[0m
+[0;32m[+][0m [0;38mFound directory "docs" Backup at http://10.10.10.58:3000/docs_old[0m
+[0;32m[+][0m [0;38mFound directory "etc" Backup at http://10.10.10.58:3000/etc_old[0m
+[0;32m[+][0m [0;38mFound directory "source" Backup at http://10.10.10.58:3000/source_old[0m
+[0;32m[+][0m [0;38mFound directory "backup" Backup at http://10.10.10.58:3000/backup_old[0m
+[0;32m[+][0m [0;38mFound directory "bak" Backup at http://10.10.10.58:3000/bak_old[0m
+[0;32m[+][0m [0;38mFound directory "db" Backup at http://10.10.10.58:3000/db_old[0m
+[0;32m[+][0m [0;38mFound directory "test" Backup at http://10.10.10.58:3000/test_old[0m
+[0;32m[+][0m [0;38mFound directory "tmp" Backup at http://10.10.10.58:3000/tmp_old[0m
+[0;32m[+][0m [0;38mFound directory "save" Backup at http://10.10.10.58:3000/save_old[0m
+[0;32m[+][0m [0;38mFound directory "files" Backup at http://10.10.10.58:3000/files_old[0m
+[0;32m[+][0m [0;38mFound directory "log" Backup at http://10.10.10.58:3000/log_old[0m
+[0;32m[+][0m [0;38mFound directory "logs" Backup at http://10.10.10.58:3000/logs_old[0m
+[0;32m[+][0m [0;38mFound directory "conf" Backup at http://10.10.10.58:3000/conf_old[0m
+[0;32m[+][0m [0;38mFound directory "config" Backup at http://10.10.10.58:3000/config_old[0m
+[0;32m[+][0m [0;38mFound directory "intranet" Backup at http://10.10.10.58:3000/intranet_old[0m
+[0;32m[+][0m [0;38mFound directory "users" Backup at http://10.10.10.58:3000/users_old[0m
+[0;32m[+][0m [0;38mFound directory "access" Backup at http://10.10.10.58:3000/access_old[0m
+[0;32m[+][0m [0;38mFound directory "public" Backup at http://10.10.10.58:3000/public_old[0m
+[0;32m[+][0m [0;38mFound directory "new" Backup at http://10.10.10.58:3000/new_old[0m
+[0;32m[+][0m [0;38mFound directory "adm" Backup at http://10.10.10.58:3000/adm_old[0m
+[0;32m[+][0m [0;38mFound directory "database" Backup at http://10.10.10.58:3000/database_old[0m
+[0;32m[+][0m [0;38mFound directory "user" Backup at http://10.10.10.58:3000/user_old[0m
+[0;32m[+][0m [0;38mFound directory "bkup" Backup at http://10.10.10.58:3000/bkup_old[0m
+[0;32m[+][0m [0;38mFound directory "www" Backup at http://10.10.10.58:3000/www_old[0m
+[0;32m[+][0m [0;38mFound directory "errors" Backup at http://10.10.10.58:3000/errors_old[0m
+[0;32m[+][0m [0;38mFound directory "backups" Backup at http://10.10.10.58:3000/backups_old[0m
+[0;32m[+][0m [0;38mFound directory "testing" Backup at http://10.10.10.58:3000/testing_old[0m
+[0;32m[+][0m [0;38mFound directory "internal" Backup at http://10.10.10.58:3000/internal_old[0m
+[0;32m[+][0m [0;38mFound directory "export" Backup at http://10.10.10.58:3000/export_old[0m
+[0;32m[+][0m [0;38mFound directory "testweb" Backup at http://10.10.10.58:3000/testweb_old[0m
+[0;32m[+][0m [0;38mFound directory "intern" Backup at http://10.10.10.58:3000/intern_old[0m
+[0;32m[+][0m [0;38mFound directory "upload" Backup at http://10.10.10.58:3000/upload_bak[0m
+[0;32m[+][0m [0;38mFound directory "common" Backup at http://10.10.10.58:3000/common_bak[0m
+[0;32m[+][0m [0;38mFound directory "wp-content" Backup at http://10.10.10.58:3000/wp-content_bak[0m
+[0;32m[+][0m [0;38mFound directory "index" Backup at http://10.10.10.58:3000/index_bak[0m
+[0;32m[+][0m [0;38mFound directory "default" Backup at http://10.10.10.58:3000/default_bak[0m
+[0;32m[+][0m [0;38mFound directory "example" Backup at http://10.10.10.58:3000/example_bak[0m
+[0;32m[+][0m [0;38mFound directory "web" Backup at http://10.10.10.58:3000/web_bak[0m
+[0;32m[+][0m [0;38mFound directory "old" Backup at http://10.10.10.58:3000/old_bak[0m
+[0;32m[+][0m [0;38mFound directory "code" Backup at http://10.10.10.58:3000/code_bak[0m
+[0;32m[+][0m [0;38mFound directory "secure" Backup at http://10.10.10.58:3000/secure_bak[0m
+[0;32m[+][0m [0;38mFound directory "system" Backup at http://10.10.10.58:3000/system_bak[0m
+[0;32m[+][0m [0;38mFound directory "tests" Backup at http://10.10.10.58:3000/tests_bak[0m
+[0;32m[+][0m [0;38mFound directory "dev" Backup at http://10.10.10.58:3000/dev_bak[0m
+[0;32m[+][0m [0;38mFound directory "share" Backup at http://10.10.10.58:3000/share_bak[0m
+[0;32m[+][0m [0;38mFound directory "bug" Backup at http://10.10.10.58:3000/bug_bak[0m
+[0;32m[+][0m [0;38mFound directory "bugs" Backup at http://10.10.10.58:3000/bugs_bak[0m
+[0;32m[+][0m [0;38mFound directory "doc" Backup at http://10.10.10.58:3000/doc_bak[0m
+[0;32m[+][0m [0;38mFound directory "docs" Backup at http://10.10.10.58:3000/docs_bak[0m
+[0;32m[+][0m [0;38mFound directory "etc" Backup at http://10.10.10.58:3000/etc_bak[0m
+[0;32m[+][0m [0;38mFound directory "source" Backup at http://10.10.10.58:3000/source_bak[0m
+[0;32m[+][0m [0;38mFound directory "backup" Backup at http://10.10.10.58:3000/backup_bak[0m
+[0;32m[+][0m [0;38mFound directory "bak" Backup at http://10.10.10.58:3000/bak_bak[0m
+[0;32m[+][0m [0;38mFound directory "db" Backup at http://10.10.10.58:3000/db_bak[0m
+[0;32m[+][0m [0;38mFound directory "test" Backup at http://10.10.10.58:3000/test_bak[0m
+[0;32m[+][0m [0;38mFound directory "tmp" Backup at http://10.10.10.58:3000/tmp_bak[0m
+[0;32m[+][0m [0;38mFound directory "save" Backup at http://10.10.10.58:3000/save_bak[0m
+[0;32m[+][0m [0;38mFound directory "files" Backup at http://10.10.10.58:3000/files_bak[0m
+[0;32m[+][0m [0;38mFound directory "log" Backup at http://10.10.10.58:3000/log_bak[0m
+[0;32m[+][0m [0;38mFound directory "logs" Backup at http://10.10.10.58:3000/logs_bak[0m
+[0;32m[+][0m [0;38mFound directory "conf" Backup at http://10.10.10.58:3000/conf_bak[0m
+[0;32m[+][0m [0;38mFound directory "config" Backup at http://10.10.10.58:3000/config_bak[0m
+[0;32m[+][0m [0;38mFound directory "intranet" Backup at http://10.10.10.58:3000/intranet_bak[0m
+[0;32m[+][0m [0;38mFound directory "users" Backup at http://10.10.10.58:3000/users_bak[0m
+[0;32m[+][0m [0;38mFound directory "access" Backup at http://10.10.10.58:3000/access_bak[0m
+[0;32m[+][0m [0;38mFound directory "public" Backup at http://10.10.10.58:3000/public_bak[0m
+[0;32m[+][0m [0;38mFound directory "new" Backup at http://10.10.10.58:3000/new_bak[0m
+[0;32m[+][0m [0;38mFound directory "adm" Backup at http://10.10.10.58:3000/adm_bak[0m
+[0;32m[+][0m [0;38mFound directory "database" Backup at http://10.10.10.58:3000/database_bak[0m
+[0;32m[+][0m [0;38mFound directory "user" Backup at http://10.10.10.58:3000/user_bak[0m
+[0;32m[+][0m [0;38mFound directory "bkup" Backup at http://10.10.10.58:3000/bkup_bak[0m
+[0;32m[+][0m [0;38mFound directory "www" Backup at http://10.10.10.58:3000/www_bak[0m
+[0;32m[+][0m [0;38mFound directory "errors" Backup at http://10.10.10.58:3000/errors_bak[0m
+[0;32m[+][0m [0;38mFound directory "backups" Backup at http://10.10.10.58:3000/backups_bak[0m
+[0;32m[+][0m [0;38mFound directory "testing" Backup at http://10.10.10.58:3000/testing_bak[0m
+[0;32m[+][0m [0;38mFound directory "internal" Backup at http://10.10.10.58:3000/internal_bak[0m
+[0;32m[+][0m [0;38mFound directory "export" Backup at http://10.10.10.58:3000/export_bak[0m
+[0;32m[+][0m [0;38mFound directory "testweb" Backup at http://10.10.10.58:3000/testweb_bak[0m
+[0;32m[+][0m [0;38mFound directory "intern" Backup at http://10.10.10.58:3000/intern_bak[0m
+[0;32m[+][0m [0;38mFound directory "upload" Backup at http://10.10.10.58:3000/upload_backup[0m
+[0;32m[+][0m [0;38mFound directory "common" Backup at http://10.10.10.58:3000/common_backup[0m
+[0;32m[+][0m [0;38mFound directory "wp-content" Backup at http://10.10.10.58:3000/wp-content_backup[0m
+[0;32m[+][0m [0;38mFound directory "index" Backup at http://10.10.10.58:3000/index_backup[0m
+[0;32m[+][0m [0;38mFound directory "default" Backup at http://10.10.10.58:3000/default_backup[0m
+[0;32m[+][0m [0;38mFound directory "example" Backup at http://10.10.10.58:3000/example_backup[0m
+[0;32m[+][0m [0;38mFound directory "web" Backup at http://10.10.10.58:3000/web_backup[0m
+[0;32m[+][0m [0;38mFound directory "old" Backup at http://10.10.10.58:3000/old_backup[0m
+[0;32m[+][0m [0;38mFound directory "code" Backup at http://10.10.10.58:3000/code_backup[0m
+[0;32m[+][0m [0;38mFound directory "secure" Backup at http://10.10.10.58:3000/secure_backup[0m
+[0;32m[+][0m [0;38mFound directory "system" Backup at http://10.10.10.58:3000/system_backup[0m
+[0;32m[+][0m [0;38mFound directory "tests" Backup at http://10.10.10.58:3000/tests_backup[0m
+[0;32m[+][0m [0;38mFound directory "dev" Backup at http://10.10.10.58:3000/dev_backup[0m
+[0;32m[+][0m [0;38mFound directory "share" Backup at http://10.10.10.58:3000/share_backup[0m
+[0;32m[+][0m [0;38mFound directory "bug" Backup at http://10.10.10.58:3000/bug_backup[0m
+[0;32m[+][0m [0;38mFound directory "bugs" Backup at http://10.10.10.58:3000/bugs_backup[0m
+[0;32m[+][0m [0;38mFound directory "doc" Backup at http://10.10.10.58:3000/doc_backup[0m
+[0;32m[+][0m [0;38mFound directory "docs" Backup at http://10.10.10.58:3000/docs_backup[0m
+[0;32m[+][0m [0;38mFound directory "etc" Backup at http://10.10.10.58:3000/etc_backup[0m
+[0;32m[+][0m [0;38mFound directory "source" Backup at http://10.10.10.58:3000/source_backup[0m
+[0;32m[+][0m [0;38mFound directory "backup" Backup at http://10.10.10.58:3000/backup_backup[0m
+[0;32m[+][0m [0;38mFound directory "bak" Backup at http://10.10.10.58:3000/bak_backup[0m
+[0;32m[+][0m [0;38mFound directory "db" Backup at http://10.10.10.58:3000/db_backup[0m
+[0;32m[+][0m [0;38mFound directory "test" Backup at http://10.10.10.58:3000/test_backup[0m
+[0;32m[+][0m [0;38mFound directory "tmp" Backup at http://10.10.10.58:3000/tmp_backup[0m
+[0;32m[+][0m [0;38mFound directory "save" Backup at http://10.10.10.58:3000/save_backup[0m
+[0;32m[+][0m [0;38mFound directory "files" Backup at http://10.10.10.58:3000/files_backup[0m
+[0;32m[+][0m [0;38mFound directory "log" Backup at http://10.10.10.58:3000/log_backup[0m
+[0;32m[+][0m [0;38mFound directory "logs" Backup at http://10.10.10.58:3000/logs_backup[0m
+[0;32m[+][0m [0;38mFound directory "conf" Backup at http://10.10.10.58:3000/conf_backup[0m
+[0;32m[+][0m [0;38mFound directory "config" Backup at http://10.10.10.58:3000/config_backup[0m
+[0;32m[+][0m [0;38mFound directory "intranet" Backup at http://10.10.10.58:3000/intranet_backup[0m
+[0;32m[+][0m [0;38mFound directory "users" Backup at http://10.10.10.58:3000/users_backup[0m
+[0;32m[+][0m [0;38mFound directory "access" Backup at http://10.10.10.58:3000/access_backup[0m
+[0;32m[+][0m [0;38mFound directory "public" Backup at http://10.10.10.58:3000/public_backup[0m
+[0;32m[+][0m [0;38mFound directory "new" Backup at http://10.10.10.58:3000/new_backup[0m
+[0;32m[+][0m [0;38mFound directory "adm" Backup at http://10.10.10.58:3000/adm_backup[0m
+[0;32m[+][0m [0;38mFound directory "database" Backup at http://10.10.10.58:3000/database_backup[0m
+[0;32m[+][0m [0;38mFound directory "user" Backup at http://10.10.10.58:3000/user_backup[0m
+[0;32m[+][0m [0;38mFound directory "bkup" Backup at http://10.10.10.58:3000/bkup_backup[0m
+[0;32m[+][0m [0;38mFound directory "www" Backup at http://10.10.10.58:3000/www_backup[0m
+[0;32m[+][0m [0;38mFound directory "errors" Backup at http://10.10.10.58:3000/errors_backup[0m
+[0;32m[+][0m [0;38mFound directory "backups" Backup at http://10.10.10.58:3000/backups_backup[0m
+[0;32m[+][0m [0;38mFound directory "testing" Backup at http://10.10.10.58:3000/testing_backup[0m
+[0;32m[+][0m [0;38mFound directory "internal" Backup at http://10.10.10.58:3000/internal_backup[0m
+[0;32m[+][0m [0;38mFound directory "export" Backup at http://10.10.10.58:3000/export_backup[0m
+[0;32m[+][0m [0;38mFound directory "testweb" Backup at http://10.10.10.58:3000/testweb_backup[0m
+[0;32m[+][0m [0;38mFound directory "intern" Backup at http://10.10.10.58:3000/intern_backup[0m
+[0;32m[+][0m [0;38mFound directory "upload" Backup at http://10.10.10.58:3000/upload1[0m
+[0;32m[+][0m [0;38mFound directory "common" Backup at http://10.10.10.58:3000/common1[0m
+[0;32m[+][0m [0;38mFound directory "wp-content" Backup at http://10.10.10.58:3000/wp-content1[0m
+[0;32m[+][0m [0;38mFound directory "index" Backup at http://10.10.10.58:3000/index1[0m
+[0;32m[+][0m [0;38mFound directory "default" Backup at http://10.10.10.58:3000/default1[0m
+[0;32m[+][0m [0;38mFound directory "example" Backup at http://10.10.10.58:3000/example1[0m
+[0;32m[+][0m [0;38mFound directory "web" Backup at http://10.10.10.58:3000/web1[0m
+[0;32m[+][0m [0;38mFound directory "old" Backup at http://10.10.10.58:3000/old1[0m
+[0;32m[+][0m [0;38mFound directory "code" Backup at http://10.10.10.58:3000/code1[0m
+[0;32m[+][0m [0;38mFound directory "secure" Backup at http://10.10.10.58:3000/secure1[0m
+[0;32m[+][0m [0;38mFound directory "system" Backup at http://10.10.10.58:3000/system1[0m
+[0;32m[+][0m [0;38mFound directory "tests" Backup at http://10.10.10.58:3000/tests1[0m
+[0;32m[+][0m [0;38mFound directory "dev" Backup at http://10.10.10.58:3000/dev1[0m
+[0;32m[+][0m [0;38mFound directory "share" Backup at http://10.10.10.58:3000/share1[0m
+[0;32m[+][0m [0;38mFound directory "bug" Backup at http://10.10.10.58:3000/bug1[0m
+[0;32m[+][0m [0;38mFound directory "bugs" Backup at http://10.10.10.58:3000/bugs1[0m
+[0;32m[+][0m [0;38mFound directory "doc" Backup at http://10.10.10.58:3000/doc1[0m
+[0;32m[+][0m [0;38mFound directory "docs" Backup at http://10.10.10.58:3000/docs1[0m
+[0;32m[+][0m [0;38mFound directory "etc" Backup at http://10.10.10.58:3000/etc1[0m
+[0;32m[+][0m [0;38mFound directory "source" Backup at http://10.10.10.58:3000/source1[0m
+[0;32m[+][0m [0;38mFound directory "backup" Backup at http://10.10.10.58:3000/backup1[0m
+[0;32m[+][0m [0;38mFound directory "bak" Backup at http://10.10.10.58:3000/bak1[0m
+[0;32m[+][0m [0;38mFound directory "db" Backup at http://10.10.10.58:3000/db1[0m
+[0;32m[+][0m [0;38mFound directory "test" Backup at http://10.10.10.58:3000/test1[0m
+[0;32m[+][0m [0;38mFound directory "tmp" Backup at http://10.10.10.58:3000/tmp1[0m
+[0;32m[+][0m [0;38mFound directory "save" Backup at http://10.10.10.58:3000/save1[0m
+[0;32m[+][0m [0;38mFound directory "files" Backup at http://10.10.10.58:3000/files1[0m
+[0;32m[+][0m [0;38mFound directory "log" Backup at http://10.10.10.58:3000/log1[0m
+[0;32m[+][0m [0;38mFound directory "logs" Backup at http://10.10.10.58:3000/logs1[0m
+[0;32m[+][0m [0;38mFound directory "conf" Backup at http://10.10.10.58:3000/conf1[0m
+[0;32m[+][0m [0;38mFound directory "config" Backup at http://10.10.10.58:3000/config1[0m
+[0;32m[+][0m [0;38mFound directory "intranet" Backup at http://10.10.10.58:3000/intranet1[0m
+[0;32m[+][0m [0;38mFound directory "users" Backup at http://10.10.10.58:3000/users1[0m
+[0;32m[+][0m [0;38mFound directory "access" Backup at http://10.10.10.58:3000/access1[0m
+[0;32m[+][0m [0;38mFound directory "public" Backup at http://10.10.10.58:3000/public1[0m
+[0;32m[+][0m [0;38mFound directory "new" Backup at http://10.10.10.58:3000/new1[0m
+[0;32m[+][0m [0;38mFound directory "adm" Backup at http://10.10.10.58:3000/adm1[0m
+[0;32m[+][0m [0;38mFound directory "database" Backup at http://10.10.10.58:3000/database1[0m
+[0;32m[+][0m [0;38mFound directory "user" Backup at http://10.10.10.58:3000/user1[0m
+[0;32m[+][0m [0;38mFound directory "bkup" Backup at http://10.10.10.58:3000/bkup1[0m
+[0;32m[+][0m [0;38mFound directory "www" Backup at http://10.10.10.58:3000/www1[0m
+[0;32m[+][0m [0;38mFound directory "errors" Backup at http://10.10.10.58:3000/errors1[0m
+[0;32m[+][0m [0;38mFound directory "backups" Backup at http://10.10.10.58:3000/backups1[0m
+[0;32m[+][0m [0;38mFound directory "testing" Backup at http://10.10.10.58:3000/testing1[0m
+[0;32m[+][0m [0;38mFound directory "internal" Backup at http://10.10.10.58:3000/internal1[0m
+[0;32m[+][0m [0;38mFound directory "export" Backup at http://10.10.10.58:3000/export1[0m
+[0;32m[+][0m [0;38mFound directory "testweb" Backup at http://10.10.10.58:3000/testweb1[0m
+[0;32m[+][0m [0;38mFound directory "intern" Backup at http://10.10.10.58:3000/intern1[0m
+[0;32m[+][0m [0;38mFound directory "upload" Backup at http://10.10.10.58:3000/upload2[0m
+[0;32m[+][0m [0;38mFound directory "common" Backup at http://10.10.10.58:3000/common2[0m
+[0;32m[+][0m [0;38mFound directory "wp-content" Backup at http://10.10.10.58:3000/wp-content2[0m
+[0;32m[+][0m [0;38mFound directory "index" Backup at http://10.10.10.58:3000/index2[0m
+[0;32m[+][0m [0;38mFound directory "default" Backup at http://10.10.10.58:3000/default2[0m
+[0;32m[+][0m [0;38mFound directory "example" Backup at http://10.10.10.58:3000/example2[0m
+[0;32m[+][0m [0;38mFound directory "web" Backup at http://10.10.10.58:3000/web2[0m
+[0;32m[+][0m [0;38mFound directory "old" Backup at http://10.10.10.58:3000/old2[0m
+[0;32m[+][0m [0;38mFound directory "code" Backup at http://10.10.10.58:3000/code2[0m
+[0;32m[+][0m [0;38mFound directory "secure" Backup at http://10.10.10.58:3000/secure2[0m
+[0;32m[+][0m [0;38mFound directory "system" Backup at http://10.10.10.58:3000/system2[0m
+[0;32m[+][0m [0;38mFound directory "tests" Backup at http://10.10.10.58:3000/tests2[0m
+[0;32m[+][0m [0;38mFound directory "dev" Backup at http://10.10.10.58:3000/dev2[0m
+[0;32m[+][0m [0;38mFound directory "share" Backup at http://10.10.10.58:3000/share2[0m
+[0;32m[+][0m [0;38mFound directory "bug" Backup at http://10.10.10.58:3000/bug2[0m
+[0;32m[+][0m [0;38mFound directory "bugs" Backup at http://10.10.10.58:3000/bugs2[0m
+[0;32m[+][0m [0;38mFound directory "doc" Backup at http://10.10.10.58:3000/doc2[0m
+[0;32m[+][0m [0;38mFound directory "docs" Backup at http://10.10.10.58:3000/docs2[0m
+[0;32m[+][0m [0;38mFound directory "etc" Backup at http://10.10.10.58:3000/etc2[0m
+[0;32m[+][0m [0;38mFound directory "source" Backup at http://10.10.10.58:3000/source2[0m
+[0;32m[+][0m [0;38mFound directory "backup" Backup at http://10.10.10.58:3000/backup2[0m
+[0;32m[+][0m [0;38mFound directory "bak" Backup at http://10.10.10.58:3000/bak2[0m
+[0;32m[+][0m [0;38mFound directory "db" Backup at http://10.10.10.58:3000/db2[0m
+[0;32m[+][0m [0;38mFound directory "test" Backup at http://10.10.10.58:3000/test2[0m
+[0;32m[+][0m [0;38mFound directory "tmp" Backup at http://10.10.10.58:3000/tmp2[0m
+[0;32m[+][0m [0;38mFound directory "save" Backup at http://10.10.10.58:3000/save2[0m
+[0;32m[+][0m [0;38mFound directory "files" Backup at http://10.10.10.58:3000/files2[0m
+[0;32m[+][0m [0;38mFound directory "log" Backup at http://10.10.10.58:3000/log2[0m
+[0;32m[+][0m [0;38mFound directory "logs" Backup at http://10.10.10.58:3000/logs2[0m
+[0;32m[+][0m [0;38mFound directory "conf" Backup at http://10.10.10.58:3000/conf2[0m
+[0;32m[+][0m [0;38mFound directory "config" Backup at http://10.10.10.58:3000/config2[0m
+[0;32m[+][0m [0;38mFound directory "intranet" Backup at http://10.10.10.58:3000/intranet2[0m
+[0;32m[+][0m [0;38mFound directory "users" Backup at http://10.10.10.58:3000/users2[0m
+[0;32m[+][0m [0;38mFound directory "access" Backup at http://10.10.10.58:3000/access2[0m
+[0;32m[+][0m [0;38mFound directory "public" Backup at http://10.10.10.58:3000/public2[0m
+[0;32m[+][0m [0;38mFound directory "new" Backup at http://10.10.10.58:3000/new2[0m
+[0;32m[+][0m [0;38mFound directory "adm" Backup at http://10.10.10.58:3000/adm2[0m
+[0;32m[+][0m [0;38mFound directory "database" Backup at http://10.10.10.58:3000/database2[0m
+[0;32m[+][0m [0;38mFound directory "user" Backup at http://10.10.10.58:3000/user2[0m
+[0;32m[+][0m [0;38mFound directory "bkup" Backup at http://10.10.10.58:3000/bkup2[0m
+[0;32m[+][0m [0;38mFound directory "www" Backup at http://10.10.10.58:3000/www2[0m
+[0;32m[+][0m [0;38mFound directory "errors" Backup at http://10.10.10.58:3000/errors2[0m
+[0;32m[+][0m [0;38mFound directory "backups" Backup at http://10.10.10.58:3000/backups2[0m
+[0;32m[+][0m [0;38mFound directory "testing" Backup at http://10.10.10.58:3000/testing2[0m
+[0;32m[+][0m [0;38mFound directory "internal" Backup at http://10.10.10.58:3000/internal2[0m
+[0;32m[+][0m [0;38mFound directory "export" Backup at http://10.10.10.58:3000/export2[0m
+[0;32m[+][0m [0;38mFound directory "testweb" Backup at http://10.10.10.58:3000/testweb2[0m
+[0;32m[+][0m [0;38mFound directory "intern" Backup at http://10.10.10.58:3000/intern2[0m
+[0;34m[i][0m [0;38mChecking common backup files..[0m
+[0;32m[+][0m [0;38mFound file "robots.txt" Backup at http://10.10.10.58:3000/robots.txt.7z[0m
+[0;32m[+][0m [0;38mFound file "sitemap.xml" Backup at http://10.10.10.58:3000/sitemap.xml.7z[0m
+[0;32m[+][0m [0;38mFound file "sitemap.xml.gz" Backup at http://10.10.10.58:3000/sitemap.xml.gz.7z[0m
+[0;32m[+][0m [0;38mFound file "phpinfo.php" Backup at http://10.10.10.58:3000/phpinfo.php.7z[0m
+[0;32m[+][0m [0;38mFound file ".svn" Backup at http://10.10.10.58:3000/.svn.7z[0m
+[0;32m[+][0m [0;38mFound file ".git" Backup at http://10.10.10.58:3000/.git.7z[0m
+[0;32m[+][0m [0;38mFound file "log.txt" Backup at http://10.10.10.58:3000/log.txt.7z[0m
+[0;32m[+][0m [0;38mFound file "frontpg.ini" Backup at http://10.10.10.58:3000/frontpg.ini.7z[0m
+[0;32m[+][0m [0;38mFound file ".htaccess" Backup at http://10.10.10.58:3000/.htaccess.7z[0m
+[0;32m[+][0m [0;38mFound file "logs.txt" Backup at http://10.10.10.58:3000/logs.txt.7z[0m
+[0;32m[+][0m [0;38mFound file "php.ini.sample" Backup at http://10.10.10.58:3000/php.ini.sample.7z[0m
+[0;32m[+][0m [0;38mFound file "error.txt" Backup at http://10.10.10.58:3000/error.txt.7z[0m
+[0;32m[+][0m [0;38mFound file "errors.txt" Backup at http://10.10.10.58:3000/errors.txt.7z[0m
+[0;32m[+][0m [0;38mFound file "tags.txt" Backup at http://10.10.10.58:3000/tags.txt.7z[0m
+[0;32m[+][0m [0;38mFound file "config-dist.php" Backup at http://10.10.10.58:3000/config-dist.php.7z[0m
+[0;32m[+][0m [0;38mFound file "user.ini" Backup at http://10.10.10.58:3000/user.ini.7z[0m
+[0;32m[+][0m [0;38mFound file ".user.ini" Backup at http://10.10.10.58:3000/.user.ini.7z[0m
+[0;32m[+][0m [0;38mFound file ".php_cs.dist" Backup at http://10.10.10.58:3000/.php_cs.dist.7z[0m
+[0;32m[+][0m [0;38mFound file ".htaccess.sample" Backup at http://10.10.10.58:3000/.htaccess.sample.7z[0m
+[0;32m[+][0m [0;38mFound file "config/database.yml" Backup at http://10.10.10.58:3000/config/database.yml.7z[0m
+[0;32m[+][0m [0;38mFound file "install.php" Backup at http://10.10.10.58:3000/install.php.7z[0m
+[0;32m[+][0m [0;38mFound file "config.php" Backup at http://10.10.10.58:3000/config.php.7z[0m
+[0;32m[+][0m [0;38mFound file "php.ini" Backup at http://10.10.10.58:3000/php.ini.7z[0m
+[0;32m[+][0m [0;38mFound file "wp-config.php" Backup at http://10.10.10.58:3000/wp-config.php.7z[0m
+[0;32m[+][0m [0;38mFound file "elmah.axd" Backup at http://10.10.10.58:3000/elmah.axd.7z[0m
+[0;32m[+][0m [0;38mFound file "Gruntfile.js.sample" Backup at http://10.10.10.58:3000/Gruntfile.js.sample.7z[0m
+[0;32m[+][0m [0;38mFound file "Gruntfile.js" Backup at http://10.10.10.58:3000/Gruntfile.js.7z[0m
+[0;32m[+][0m [0;38mFound file "CODE_OF_CONDUCT.md" Backup at http://10.10.10.58:3000/CODE_OF_CONDUCT.md.7z[0m
+[0;32m[+][0m [0;38mFound file "composer.json" Backup at http://10.10.10.58:3000/composer.json.7z[0m
+[0;32m[+][0m [0;38mFound file "phpunit.xml.dist" Backup at http://10.10.10.58:3000/phpunit.xml.dist.7z[0m
+[0;32m[+][0m [0;38mFound file "BACKERS.md" Backup at http://10.10.10.58:3000/BACKERS.md.7z[0m
+[0;32m[+][0m [0;38mFound file "LICENSE-PHP.txt" Backup at http://10.10.10.58:3000/LICENSE-PHP.txt.7z[0m
+[0;32m[+][0m [0;38mFound file "LICENSE-ZEND.txt" Backup at http://10.10.10.58:3000/LICENSE-ZEND.txt.7z[0m
+[0;32m[+][0m [0;38mFound file "auth.json.sample" Backup at http://10.10.10.58:3000/auth.json.sample.7z[0m
+[0;32m[+][0m [0;38mFound file "auth.json" Backup at http://10.10.10.58:3000/auth.json.7z[0m
+[0;32m[+][0m [0;38mFound file "LICENSE.txt" Backup at http://10.10.10.58:3000/LICENSE.txt.7z[0m
+[0;32m[+][0m [0;38mFound file "README.md" Backup at http://10.10.10.58:3000/README.md.7z[0m
+[0;32m[+][0m [0;38mFound file "appveyor.yml" Backup at http://10.10.10.58:3000/appveyor.yml.7z[0m
+[0;32m[+][0m [0;38mFound file "codeception.yml" Backup at http://10.10.10.58:3000/codeception.yml.7z[0m
+[0;32m[+][0m [0;38mFound file "config.json" Backup at http://10.10.10.58:3000/config.json.7z[0m
+[0;32m[+][0m [0;38mFound file "phpcs.xml" Backup at http://10.10.10.58:3000/phpcs.xml.7z[0m
+[0;32m[+][0m [0;38mFound file ".codeclimate.yml" Backup at http://10.10.10.58:3000/.codeclimate.yml.7z[0m
+[0;32m[+][0m [0;38mFound file ".dockerignore" Backup at http://10.10.10.58:3000/.dockerignore.7z[0m
+[0;32m[+][0m [0;38mFound file ".editorconfig" Backup at http://10.10.10.58:3000/.editorconfig.7z[0m
+[0;32m[+][0m [0;38mFound file ".eslintignore" Backup at http://10.10.10.58:3000/.eslintignore.7z[0m
+[0;32m[+][0m [0;38mFound file ".eslintrc" Backup at http://10.10.10.58:3000/.eslintrc.7z[0m
+[0;32m[+][0m [0;38mFound file ".gitattributes" Backup at http://10.10.10.58:3000/.gitattributes.7z[0m
+[0;32m[+][0m [0;38mFound file ".gitignore" Backup at http://10.10.10.58:3000/.gitignore.7z[0m
+[0;32m[+][0m [0;38mFound file ".gitlab-ci.yml" Backup at http://10.10.10.58:3000/.gitlab-ci.yml.7z[0m
+[0;32m[+][0m [0;38mFound file ".php_cs" Backup at http://10.10.10.58:3000/.php_cs.7z[0m
+[0;32m[+][0m [0;38mFound file ".scrutinizer.yml" Backup at http://10.10.10.58:3000/.scrutinizer.yml.7z[0m
+[0;32m[+][0m [0;38mFound file ".travis.yml" Backup at http://10.10.10.58:3000/.travis.yml.7z[0m
+[0;32m[+][0m [0;38mFound file "Dockerfile" Backup at http://10.10.10.58:3000/Dockerfile.7z[0m
+[0;32m[+][0m [0;38mFound file "code-of-conduct.md" Backup at http://10.10.10.58:3000/code-of-conduct.md.7z[0m
+[0;32m[+][0m [0;38mFound file "composer.lock" Backup at http://10.10.10.58:3000/composer.lock.7z[0m
+[0;32m[+][0m [0;38mFound file "package.json" Backup at http://10.10.10.58:3000/package.json.7z[0m
+[0;32m[+][0m [0;38mFound file "Directory.Build.props" Backup at http://10.10.10.58:3000/Directory.Build.props.7z[0m
+[0;32m[+][0m [0;38mFound file "Directory.Build.targets" Backup at http://10.10.10.58:3000/Directory.Build.targets.7z[0m
+[0;32m[+][0m [0;38mFound file "Mvc.NoFun.sln" Backup at http://10.10.10.58:3000/Mvc.NoFun.sln.7z[0m
+[0;32m[+][0m [0;38mFound file "Mvc.sln" Backup at http://10.10.10.58:3000/Mvc.sln.7z[0m
+[0;32m[+][0m [0;38mFound file "NuGet.config" Backup at http://10.10.10.58:3000/NuGet.config.7z[0m
+[0;32m[+][0m [0;38mFound file "NuGetPackageVerifier.json" Backup at http://10.10.10.58:3000/NuGetPackageVerifier.json.7z[0m
+[0;32m[+][0m [0;38mFound file "Settings.StyleCop" Backup at http://10.10.10.58:3000/Settings.StyleCop.7z[0m
+[0;32m[+][0m [0;38mFound file "build.cmd" Backup at http://10.10.10.58:3000/build.cmd.7z[0m
+[0;32m[+][0m [0;38mFound file "build.ps1" Backup at http://10.10.10.58:3000/build.ps1.7z[0m
+[0;32m[+][0m [0;38mFound file "build.sh" Backup at http://10.10.10.58:3000/build.sh.7z[0m
+[0;32m[+][0m [0;38mFound file "WEB-INF/jboss-web.xml" Backup at http://10.10.10.58:3000/WEB-INF/jboss-web.xml.7z[0m
+[0;32m[+][0m [0;38mFound file "version.xml" Backup at http://10.10.10.58:3000/version.xml.7z[0m
+[0;32m[+][0m [0;38mFound file "CHANGELOG.md" Backup at http://10.10.10.58:3000/CHANGELOG.md.7z[0m
+[0;32m[+][0m [0;38mFound file "VERSION" Backup at http://10.10.10.58:3000/VERSION.7z[0m
+[0;32m[+][0m [0;38mFound file "appveyor.yml" Backup at http://10.10.10.58:3000/appveyor.yml.7z[0m
+[0;32m[+][0m [0;38mFound file "test.txt" Backup at http://10.10.10.58:3000/test.txt.7z[0m
+[0;32m[+][0m [0;38mFound file ".htaccess.bak" Backup at http://10.10.10.58:3000/.htaccess.bak.7z[0m
+[0;32m[+][0m [0;38mFound file ".htpasswd" Backup at http://10.10.10.58:3000/.htpasswd.7z[0m
+[0;32m[+][0m [0;38mFound file ".meta" Backup at http://10.10.10.58:3000/.meta.7z[0m
+[0;32m[+][0m [0;38mFound file ".web" Backup at http://10.10.10.58:3000/.web.7z[0m
+[0;32m[+][0m [0;38mFound file "Web.Config" Backup at http://10.10.10.58:3000/Web.Config.7z[0m
+[0;32m[+][0m [0;38mFound file "index.html" Backup at http://10.10.10.58:3000/index.html.7z[0m
+[0;32m[+][0m [0;38mFound file "index.jsp" Backup at http://10.10.10.58:3000/index.jsp.7z[0m
+[0;32m[+][0m [0;38mFound file "web.xml" Backup at http://10.10.10.58:3000/web.xml.7z[0m
+[0;32m[+][0m [0;38mFound file "index.php" Backup at http://10.10.10.58:3000/index.php.7z[0m
+[0;32m[+][0m [0;38mFound file "index.asp" Backup at http://10.10.10.58:3000/index.asp.7z[0m
+[0;32m[+][0m [0;38mFound file "Gemfile" Backup at http://10.10.10.58:3000/Gemfile.7z[0m
+[0;32m[+][0m [0;38mFound file ".eslintignore" Backup at http://10.10.10.58:3000/.eslintignore.7z[0m
+[0;32m[+][0m [0;38mFound file "behat.yml.dist" Backup at http://10.10.10.58:3000/behat.yml.dist.7z[0m
+[0;32m[+][0m [0;38mFound file "README" Backup at http://10.10.10.58:3000/README.7z[0m
+[0;32m[+][0m [0;38mFound file "README.rdoc" Backup at http://10.10.10.58:3000/README.rdoc.7z[0m
+[0;32m[+][0m [0;38mFound file "Rakefile" Backup at http://10.10.10.58:3000/Rakefile.7z[0m
+[0;32m[+][0m [0;38mFound file "index.aspx" Backup at http://10.10.10.58:3000/index.aspx.7z[0m
+[0;32m[+][0m [0;38mFound file "weblogic.xml" Backup at http://10.10.10.58:3000/weblogic.xml.7z[0m
+[0;32m[+][0m [0;38mFound file "node.xml" Backup at http://10.10.10.58:3000/node.xml.7z[0m
+[0;32m[+][0m [0;38mFound file "Desktop.ini" Backup at http://10.10.10.58:3000/Desktop.ini.7z[0m
+[0;32m[+][0m [0;38mFound file ".DS_Store" Backup at http://10.10.10.58:3000/.DS_Store.7z[0m
+[0;32m[+][0m [0;38mFound file "Thumbs.db" Backup at http://10.10.10.58:3000/Thumbs.db.7z[0m
+[0;32m[+][0m [0;38mFound file "Makefile.in" Backup at http://10.10.10.58:3000/Makefile.in.7z[0m
+[0;32m[+][0m [0;38mFound file "config.status" Backup at http://10.10.10.58:3000/config.status.7z[0m
+[0;32m[+][0m [0;38mFound file "config.ini" Backup at http://10.10.10.58:3000/config.ini.7z[0m
+[0;32m[+][0m [0;38mFound file "robots.txt" Backup at http://10.10.10.58:3000/robots.txt.rar[0m
+[0;32m[+][0m [0;38mFound file "sitemap.xml" Backup at http://10.10.10.58:3000/sitemap.xml.rar[0m
+[0;32m[+][0m [0;38mFound file "sitemap.xml.gz" Backup at http://10.10.10.58:3000/sitemap.xml.gz.rar[0m
+[0;32m[+][0m [0;38mFound file "phpinfo.php" Backup at http://10.10.10.58:3000/phpinfo.php.rar[0m
+[0;32m[+][0m [0;38mFound file ".svn" Backup at http://10.10.10.58:3000/.svn.rar[0m
+[0;32m[+][0m [0;38mFound file ".git" Backup at http://10.10.10.58:3000/.git.rar[0m
+[0;32m[+][0m [0;38mFound file "log.txt" Backup at http://10.10.10.58:3000/log.txt.rar[0m
+[0;32m[+][0m [0;38mFound file "frontpg.ini" Backup at http://10.10.10.58:3000/frontpg.ini.rar[0m
+[0;32m[+][0m [0;38mFound file ".htaccess" Backup at http://10.10.10.58:3000/.htaccess.rar[0m
+[0;32m[+][0m [0;38mFound file "logs.txt" Backup at http://10.10.10.58:3000/logs.txt.rar[0m
+[0;32m[+][0m [0;38mFound file "php.ini.sample" Backup at http://10.10.10.58:3000/php.ini.sample.rar[0m
+[0;32m[+][0m [0;38mFound file "error.txt" Backup at http://10.10.10.58:3000/error.txt.rar[0m
+[0;32m[+][0m [0;38mFound file "errors.txt" Backup at http://10.10.10.58:3000/errors.txt.rar[0m
+[0;32m[+][0m [0;38mFound file "tags.txt" Backup at http://10.10.10.58:3000/tags.txt.rar[0m
+[0;32m[+][0m [0;38mFound file "config-dist.php" Backup at http://10.10.10.58:3000/config-dist.php.rar[0m
+[0;32m[+][0m [0;38mFound file "user.ini" Backup at http://10.10.10.58:3000/user.ini.rar[0m
+[0;32m[+][0m [0;38mFound file ".user.ini" Backup at http://10.10.10.58:3000/.user.ini.rar[0m
+[0;32m[+][0m [0;38mFound file ".php_cs.dist" Backup at http://10.10.10.58:3000/.php_cs.dist.rar[0m
+[0;32m[+][0m [0;38mFound file ".htaccess.sample" Backup at http://10.10.10.58:3000/.htaccess.sample.rar[0m
+[0;32m[+][0m [0;38mFound file "config/database.yml" Backup at http://10.10.10.58:3000/config/database.yml.rar[0m
+[0;32m[+][0m [0;38mFound file "install.php" Backup at http://10.10.10.58:3000/install.php.rar[0m
+[0;32m[+][0m [0;38mFound file "config.php" Backup at http://10.10.10.58:3000/config.php.rar[0m
+[0;32m[+][0m [0;38mFound file "php.ini" Backup at http://10.10.10.58:3000/php.ini.rar[0m
+[0;32m[+][0m [0;38mFound file "wp-config.php" Backup at http://10.10.10.58:3000/wp-config.php.rar[0m
+[0;32m[+][0m [0;38mFound file "elmah.axd" Backup at http://10.10.10.58:3000/elmah.axd.rar[0m
+[0;32m[+][0m [0;38mFound file "Gruntfile.js.sample" Backup at http://10.10.10.58:3000/Gruntfile.js.sample.rar[0m
+[0;32m[+][0m [0;38mFound file "Gruntfile.js" Backup at http://10.10.10.58:3000/Gruntfile.js.rar[0m
+[0;32m[+][0m [0;38mFound file "CODE_OF_CONDUCT.md" Backup at http://10.10.10.58:3000/CODE_OF_CONDUCT.md.rar[0m
+[0;32m[+][0m [0;38mFound file "composer.json" Backup at http://10.10.10.58:3000/composer.json.rar[0m
+[0;32m[+][0m [0;38mFound file "phpunit.xml.dist" Backup at http://10.10.10.58:3000/phpunit.xml.dist.rar[0m
+[0;32m[+][0m [0;38mFound file "BACKERS.md" Backup at http://10.10.10.58:3000/BACKERS.md.rar[0m
+[0;32m[+][0m [0;38mFound file "LICENSE-PHP.txt" Backup at http://10.10.10.58:3000/LICENSE-PHP.txt.rar[0m
+[0;32m[+][0m [0;38mFound file "LICENSE-ZEND.txt" Backup at http://10.10.10.58:3000/LICENSE-ZEND.txt.rar[0m
+[0;32m[+][0m [0;38mFound file "auth.json.sample" Backup at http://10.10.10.58:3000/auth.json.sample.rar[0m
+[0;32m[+][0m [0;38mFound file "auth.json" Backup at http://10.10.10.58:3000/auth.json.rar[0m
+[0;32m[+][0m [0;38mFound file "LICENSE.txt" Backup at http://10.10.10.58:3000/LICENSE.txt.rar[0m
+[0;32m[+][0m [0;38mFound file "README.md" Backup at http://10.10.10.58:3000/README.md.rar[0m
+[0;32m[+][0m [0;38mFound file "appveyor.yml" Backup at http://10.10.10.58:3000/appveyor.yml.rar
